@@ -1,0 +1,322 @@
+﻿sample_id,strategy,question_id,rank,chunk_id,source,page,section,provided_filter,chunk_text,source_ok,page_ok,section_ok,reason,review_status
+A:q16:r1,A,q16,1,78d136e520da0c0eb7ea2eaef9d2e3ac0202a041580f89bb2b4f67cc69f79f55,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,7,1.1,{},"s were formed in the United States ever since, such as the
+Carnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,
+the research group the Massachusetts Institute of Technology (MIT) by Marvin
+Lee Minsky and John McCarthy, and Arthur Samuel’s IBM engineering research
+group, etc.
+In the following two decades, AI was developing rapidly in a wide range of
+fields, and thanks to the great enthusiasm of researchers, the AI technologies and
+applications have kept expanding.
+(a) Machine L",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q16:r2,A,q16,2,99e4ba3b3470b2b3f0ae5bd461d2efad3f4eb4a9df7e6ba5e95e124adf3f00dd,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,5,1.1,{},"ck to the Turing Test proposed
+by Alan M. Turing, known as “the Father of Artificial Intelligence”, in 1950.
+According to his assumption, if a computer can engage in dialogue with humans
+without being detected as a computer, then it is deemed as having intelligence. In the
+same year he proposed this assumption, Turing boldly predicted that creating the",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q16:r3,A,q16,3,8cac78ee452a970b0c2d1fa909ac2808ad4e5455f1b83ecea77f83661831e09c,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,20,1.2,{},"Kasparov by 3.5:2.5. And the third wave of AI came in 2016
+when the Go AI AlphaGo developed by DeepMind, a subsidiary of Google, defeated
+the Go world champion and nine-dan player from the South Korean, Lee Sedol.
+In the future, AI will be embedded in every walk of life, from automobiles,
+finance, consumer goods to retail, healthcare, education, manufacturing, communi-
+cations, energy, tourism, culture and entertainment, transportation, logistics, real
+estate and environmental protection, etc.
+F",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q16:r1,B,q16,1,efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,12,1.1,{},1.1.5 The Three Main Schools of AI,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q16:r2,B,q16,2,a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,33,1.4,{},Fig. 1.22 The three stages of artificial intelligence,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q16:r3,B,q16,3,dca0e545dd294f95298cd9798819b64e5322e2e43661e5e8301c14e55cd3b223,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,3,1.1,{},Fig. 1.2 Fields covered by artificial intelligence,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q16:r1,C,q16,1,efe2ec2b18d904c6e87dcffcbd481737c88dac1655a597b1a20956f7c36da046,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,12,1.1,{},1.1.5 The Three Main Schools of AI,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q16:r2,C,q16,2,a98912fd510b0b32508d315c93e9a3751ee76f358e424cacef5f05d6249d0af9,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,33,1.4,{},Fig. 1.22 The three stages of artificial intelligence,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q16:r3,C,q16,3,dca0e545dd294f95298cd9798819b64e5322e2e43661e5e8301c14e55cd3b223,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,3,1.1,{},Fig. 1.2 Fields covered by artificial intelligence,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q17:r1,A,q17,1,2a6c5a89d2a4ddb30619a56402119167723de1d2f761acc7a6ec69724af92a15,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,16,1.2,{},"y under the traditional architecture from making
+much progress.
+The status quo of the industry prompted researchers to keep on looking for
+CPU architectures and the relevant software frameworks that can better
+adapted to the post-Moore Era. As a result, the multi-core processor came
+into being, which allows higher CPU performance with more cores. Multi-
+core processors can better meet the demands of software on hardware. For
+example, Intel Core i7 processors adopt instruction-level parallel proc",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q17:r2,A,q17,2,605a5b6e53e05ef15b3e15b13e927b3221851236e5eeeaf97090f2137e738f2a,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,17,1.2,{},"instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as t",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q17:r3,A,q17,3,a24340f1b887ee5457980ca619f75128c3e46649ba49592975d973bde4ebe1f0,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,18,1.2,{},"gned for simultaneous processing of
+multiple tasks). The CPU consists of several cores optimized for serial
+processing.
+(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,
+cache of the GPU serves for threads merely and plays the role of data
+forwarding. When multiple threads need to access the same data, the cache
+will coalesce these accesses, then access the DRAM, and forward the data to
+each thread after obtaining them, which will cause latency. However, as the
+large numb",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q17:r1,B,q17,1,9d3fd2dfeeeeabbd65533cdbf0bbcd6e86f7ca3eb355fce4e60b41f660dacae2,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,17,1.2,{},"instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q17:r2,B,q17,2,8b55b6cdbbc1ff2fe86b9c865fd061d48a24b72f37502adfac8b68564b0cba80,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,17,1.2,{},"matrix multi-
+plication and convolutional operations, so as to increase computing power
+and reduce energy consumption.
+(d) FPGA
+FPGA uses a programmable hardware description language (HDL), which
+is flexible, reconfigurable, and can be deeply customized. It can load DNN
+model on the chips to perform low-latency operation by incorporating mul-
+tiple FPGAs, contributing to a computing performance higher than GPU. But
+as it has to take account the constant erasing process, the performance of
+FPGA",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q17:r3,B,q17,3,9e104a82fa618e78b88c21a483c4d033e80a437c4ff843171f41fe5660c0c453,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,15,1.2,{},"of the technical architecture, AI processors can be roughly classified
+into four types.
+(a) CPU
+Central processing unit (CPU) is a large-scale integration circuit, which is
+the core of computing and control of a computer. The main function of CPU
+is to interpret program instructions and process data in software that it
+receives from the computer.
+(b) GPU
+Graphics processing unit (GPU), also known as display core (DC), visual
+processing unit (VPU) and display chip, is a specialized microprocessor",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q17:r1,C,q17,1,9d3fd2dfeeeeabbd65533cdbf0bbcd6e86f7ca3eb355fce4e60b41f660dacae2,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,17,1.2,{},"instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q17:r2,C,q17,2,8b55b6cdbbc1ff2fe86b9c865fd061d48a24b72f37502adfac8b68564b0cba80,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,17,1.2,{},"matrix multi-
+plication and convolutional operations, so as to increase computing power
+and reduce energy consumption.
+(d) FPGA
+FPGA uses a programmable hardware description language (HDL), which
+is flexible, reconfigurable, and can be deeply customized. It can load DNN
+model on the chips to perform low-latency operation by incorporating mul-
+tiple FPGAs, contributing to a computing performance higher than GPU. But
+as it has to take account the constant erasing process, the performance of
+FPGA",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q17:r3,C,q17,3,9e104a82fa618e78b88c21a483c4d033e80a437c4ff843171f41fe5660c0c453,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,15,1.2,{},"of the technical architecture, AI processors can be roughly classified
+into four types.
+(a) CPU
+Central processing unit (CPU) is a large-scale integration circuit, which is
+the core of computing and control of a computer. The main function of CPU
+is to interpret program instructions and process data in software that it
+receives from the computer.
+(b) GPU
+Graphics processing unit (GPU), also known as display core (DC), visual
+processing unit (VPU) and display chip, is a specialized microprocessor",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q18:r1,A,q18,1,318c8e3b96cf4f586fef427259f5fddf6d70db5f253d657fb81ed5875d825e44,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,33,1.4,"{""section"": ""1.4""}","bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial
+intelligence computing solution, based on the Ascend AI processor, provides prod-
+ucts in different forms, including modules, circuit boards and servers to meet the
+all-scenario demands for computing power by customers.
+
+1.4.2 Directions of Huawei Full-Stack AI
+
+1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-s",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q18:r2,A,q18,2,56d857eb43e3e4a517216f7d2db273e8a466d9a4474efd02ea91fde045a0fe29,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,23,1.2,"{""section"": ""1.4""}",". It searches
+solutions to the problems in the AI technologies and navigate the implemen-
+tation of AI.
+(b) Industrial data: It enables the companies to utilize their own data to create
+massive value through data processing and data mining.
+(c) Algorithms: It provides enterprises with extensive algorithm libraries and
+model libraries, and solutions to corporate problems through general AI
+services and one-stop development platform.
+(d) Computing power: Based on Huawei’s 30 years of experiences i",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q18:r3,A,q18,3,0d8878477382734e9a6e9f3334b1c12530c618612381e78e621fda470e0a2bfc,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,34,1.4,"{""section"": ""1.4""}","models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the enterpr",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q18:r1,B,q18,1,d8ea74a6916275867fabd6fc7a6e89f559ba1d6423e7913909f91f59190cfc74,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,33,1.4,"{""section"": ""1.4""}","1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-scale data preprocessing, semi-automatic labeling,
+distributed training, automated model building and on-demand model deploy-
+ment on end, edge and cloud, to help developers quickly build and deploy models
+and manage the full AI development lifecycle. ModelArts features characteristics
+as follows.
+(a) Automatic learning: With the automatic",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q18:r2,B,q18,2,fb64e09c44125f3de687cc6057a964afbfb5d2625a9aaea6c83ecdf5fe071473,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,34,1.4,"{""section"": ""1.4""}","consumption designed by Huawei.
+(f) High efficiency of data preparation: ModelArts has a built-in AI data frame-
+work, which can enhance the efficiency of data preparation through the
+convergence of automatic pre-labeling and hard example dataset labeling.
+(g) Reduced training time: ModelArts is installed with Huawei’s self-developed
+high-performance distributed framework MoXing, using core technologies
+including cascaded hybrid parallelism, gradient compression, and convolu-
+tion acceleration",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q18:r3,B,q18,3,3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,34,1.4,"{""section"": ""1.4""}","models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q18:r1,C,q18,1,d8ea74a6916275867fabd6fc7a6e89f559ba1d6423e7913909f91f59190cfc74,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,33,1.4,"{""section"": ""1.4""}","1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-scale data preprocessing, semi-automatic labeling,
+distributed training, automated model building and on-demand model deploy-
+ment on end, edge and cloud, to help developers quickly build and deploy models
+and manage the full AI development lifecycle. ModelArts features characteristics
+as follows.
+(a) Automatic learning: With the automatic",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q18:r2,C,q18,2,fb64e09c44125f3de687cc6057a964afbfb5d2625a9aaea6c83ecdf5fe071473,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,34,1.4,"{""section"": ""1.4""}","consumption designed by Huawei.
+(f) High efficiency of data preparation: ModelArts has a built-in AI data frame-
+work, which can enhance the efficiency of data preparation through the
+convergence of automatic pre-labeling and hard example dataset labeling.
+(g) Reduced training time: ModelArts is installed with Huawei’s self-developed
+high-performance distributed framework MoXing, using core technologies
+including cascaded hybrid parallelism, gradient compression, and convolu-
+tion acceleration",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q18:r3,C,q18,3,3fca90debb28d9433aa1229aef24f2662dcd16f1f1cf8c8e5a9b936136a6b59f,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,34,1.4,"{""section"": ""1.4""}","models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q19:r1,A,q19,1,a6931db5a3595e3f7495ceab9cbd6e2ddb856188ba52abc07558b016e4c09736,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,37,1.5,{},"s, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mo",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q19:r2,A,q19,2,a24340f1b887ee5457980ca619f75128c3e46649ba49592975d973bde4ebe1f0,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,18,1.2,{},"gned for simultaneous processing of
+multiple tasks). The CPU consists of several cores optimized for serial
+processing.
+(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,
+cache of the GPU serves for threads merely and plays the role of data
+forwarding. When multiple threads need to access the same data, the cache
+will coalesce these accesses, then access the DRAM, and forward the data to
+each thread after obtaining them, which will cause latency. However, as the
+large numb",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q19:r3,A,q19,3,e784b9a893462dd7bf6acda176859565722cb83e9eea5727371fa742bb949073,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,19,1.2,{},"e of neural network tasks
+processing is much higher than that of CPU and GPU.
+The NPU mimics human neurons and synapses on the circuitry, and directly
+processes large scale neurons and synapses through deep learning processor
+instruction set. In NPUs, the processing of a group of neurons will take only
+one instruction. Currently, the typical examples of NPU include Huawei Ascend
+AI processor, the Cambrian chip and IBM’s TrueNorth chip.
+There are two kinds of Huawei Ascend AI processor: Ascend 31",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q19:r1,B,q19,1,5095bced857f9cb3eb5f566d6b017cbe56a7e6731bbb78f19672d965c073d667,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,37,1.5,{},"Along with the development of computer vision, it is more and more difficult to
+judge the credibility of images. People can produce fake or manipulated images
+through image processors (e.g., Photoshop, PS), generative adversarial networks
+(GAN) and other techniques, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q19:r2,B,q19,2,4881e42cc07fb2cb9381940be3b467a81a7bb492fa7e70e5cdd0465f038ac7b7,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,37,1.5,{},"quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mouse game, or like cashiers fighting banknote counterfeiters:
+the counterfeiter tries to deceive the cashier to believe that he is holding the real
+money, and the cashier tries to identify the authenticity.",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q19:r3,B,q19,3,f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,28,1.3,{},"Fig. 1.15 Intelligent Q&A
+
+Fig. 1.16 Intelligent navigation",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q19:r1,C,q19,1,5095bced857f9cb3eb5f566d6b017cbe56a7e6731bbb78f19672d965c073d667,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,37,1.5,{},"Along with the development of computer vision, it is more and more difficult to
+judge the credibility of images. People can produce fake or manipulated images
+through image processors (e.g., Photoshop, PS), generative adversarial networks
+(GAN) and other techniques, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q19:r2,C,q19,2,4881e42cc07fb2cb9381940be3b467a81a7bb492fa7e70e5cdd0465f038ac7b7,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,37,1.5,{},"quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mouse game, or like cashiers fighting banknote counterfeiters:
+the counterfeiter tries to deceive the cashier to believe that he is holding the real
+money, and the cashier tries to identify the authenticity.",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q19:r3,C,q19,3,f052f47b3957bdbc1d19288ab17c060e50d69646a86a1f2dd48231e61618b764,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,28,1.3,{},"Fig. 1.15 Intelligent Q&A
+
+Fig. 1.16 Intelligent navigation",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q20:r1,A,q20,1,c7972a169c2eaea585dcf22bacc5814b9da3a8b09b3fc0917b89729a625e2861,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,21,1.2,"{""section"": ""1.6""}","el will take a long working cycle, which consists
+of data collection, data cleaning, model training and tuning, and optimization of
+visualization experience.
+3. Fragmented capabilities and experiences: to apply a same AI model in other
+scenarios requires will need to repeat data collection, data cleaning, model
+training and tuning, and experience optimization, and the capabilities of the AI
+model cannot be directly passed to the next scenario.
+4. Difficult capacity upgrading and improvement: the",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q20:r2,A,q20,2,1b17013bceab1016d7d2309cffe48dac714c6899cc36b9087a232de02ff7a860,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,21,1.2,"{""section"": ""1.6""}","tion are facing challenges as well: the unbalance between the
+limited AI development and the huge market demands. Currently, the development
+and application of AI needs to deal with the following three problems.
+1. High occupational standards: To get engaged in AI industry, it is a prerequisite
+for a person to have considerable knowledge in machine learning, deep learning,
+statistics, linear algebra and calculus.
+2. Low efficiency. Training a model will take a long working cycle, which consists
+",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+A:q20:r3,A,q20,3,1309cad17fec04f8b264df1166022e8a900559da7964d0fa332ecb4c3ecb6179,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,38,1.6,"{""section"": ""1.6""}","uring the performance.
+4. All-round development of the computing power at device, edge and cloud
+The application of artificial intelligence chips to the cloud, edge devices and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise o",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q20:r1,B,q20,1,b83e6bb1d224575cf8be52cac002b1b6ad809449460de6f9e3fe598d197d6cc6,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,21,1.2,"{""section"": ""1.6""}","development
+and application of AI needs to deal with the following three problems.
+1. High occupational standards: To get engaged in AI industry, it is a prerequisite
+for a person to have considerable knowledge in machine learning, deep learning,
+statistics, linear algebra and calculus.
+2. Low efficiency. Training a model will take a long working cycle, which consists
+of data collection, data cleaning, model training and tuning, and optimization of
+visualization experience.
+3. Fragmented",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q20:r2,B,q20,2,6469c77d81233c03b8942452505d73353bd5813eb69085b4459d1834fdc68d86,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,23,1.2,"{""section"": ""1.6""}","the problems in the AI technologies and navigate the implemen-
+tation of AI.
+(b) Industrial data: It enables the companies to utilize their own data to create
+massive value through data processing and data mining.
+(c) Algorithms: It provides enterprises with extensive algorithm libraries and
+model libraries, and solutions to corporate problems through general AI
+services and one-stop development platform.
+(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the
+full-stack AI",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+B:q20:r3,B,q20,3,a7dbd3e4e81757012f8815078ee193f87471b4e70c4b2227f20aaa7d3cc2e713,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,38,1.6,"{""section"": ""1.6""}","and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise of ensuring data privacy and security, federated learning
+makes use of different data sources to collaboratively train the models, so as to
+overcome the bottleneck of data as",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q20:r1,C,q20,1,a7dbd3e4e81757012f8815078ee193f87471b4e70c4b2227f20aaa7d3cc2e713,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,38,1.6,"{""section"": ""1.6""}","and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise of ensuring data privacy and security, federated learning
+makes use of different data sources to collaboratively train the models, so as to
+overcome the bottleneck of data as",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q20:r2,C,q20,2,d7113a298107793b613e363bf2add3f5955d82e438f11f08869e689bc10ad564,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,38,1.6,"{""section"": ""1.6""}",1.6 The Development Trends for AI,1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft
+C:q20:r3,C,q20,3,66a3f9f8afabbddfb9bc265512be5cb5c1b5666a95e240f40e8486c2d4a05449,https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1,38,1.6,"{""section"": ""1.6""}","will have to face the problem of operational efficiency during
+industrial implementation. Therefore, an increasing number of model compres-
+sion techniques have been proposed to further reduce the size and parameters of
+the models, accelerate the inference speed, and meet the requirements of indus-
+trial applications while ensuring the performance.
+4. All-round development of the computing power at device, edge and cloud
+The application of artificial intelligence chips to the cloud, edge devices",1,1,1,"Đối chiếu text, nguồn, vị trí trang/mục khớp corpus; chờ rà PDF.",draft

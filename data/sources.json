@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "documents": [
+    {
+      "source_id": "huawei-ai-technology-ch01-2023",
+      "title": "A General Introduction to Artificial Intelligence",
+      "authors": ["Huawei Technologies Co., Ltd."],
+      "book_title": "Artificial Intelligence Technology",
+      "source_path_or_url": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+      "doi": "10.1007/978-981-19-2879-6_1",
+      "local_path": "data/raw/978-981-19-2879-6_1.pdf",
+      "license_or_permission": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "permission_reference": "License statement on physical PDF page 41 and the official chapter page",
+      "accessed_at": "2026-11-14",
+      "accessed_at_basis": "Date the official chapter page was checked; the original download date has not been provided.",
+      "downloaded_at": null,
+      "first_online": "2022-10-22",
+      "year": 2023,
+      "year_basis": "Copyright year printed on physical PDF page 1; first-online date is recorded separately.",
+      "version": "DOI 10.1007/978-981-19-2879-6_1; exact local snapshot identified by SHA-256 in manifest",
+      "language": "en",
+      "document_type": "book_chapter",
+      "attribution": "Huawei Technologies Co., Ltd. (2023). A General Introduction to Artificial Intelligence. In Artificial Intelligence Technology. https://doi.org/10.1007/978-981-19-2879-6_1. Copyright The Author(s) 2023. CC BY-NC-ND 4.0.",
+      "processing_note": "Normalized text is generated locally for this lab. Generated text and review images are ignored by Git. Preserve attribution and review license conditions before sharing processed content; third-party material may carry separate notices.",
+      "running_header_regexes": [
+        "^[0-9]+ 1 A General Introduction to Artificial Intelligence$",
+        "^1\\.[1-8] .+ [0-9]+$",
+        "^© The Author\\(s\\) 2023 [0-9]+$",
+        "^Huawei Technologies Co\\., Ltd\\., Artificial Intelligence Technology,$",
+        "^https://doi\\.org/10\\.1007/978-981-19-2879-6_1$"
+      ],
+      "verified_glyph_replacements": {"\u0081": "•"},
+      "glyph_replacement_basis": "The U+0081 characters on physical pages 17 and 24 were checked against full-page renders and are round list bullets, not body letters.",
+      "initial_section": {
+        "id": "1",
+        "title": "A General Introduction to Artificial Intelligence"
+      },
+      "sections": [
+        {"id": "1.1", "title": "The Concept of Artificial Intelligence", "starts_on_page": 1},
+        {"id": "1.2", "title": "AI-Related Technologies", "starts_on_page": 13},
+        {"id": "1.3", "title": "The Technologies and Applications of AI", "starts_on_page": 25},
+        {"id": "1.4", "title": "Huawei’s AI Development Strategy", "starts_on_page": 32},
+        {"id": "1.5", "title": "The Controversy of AI", "starts_on_page": 36},
+        {"id": "1.6", "title": "The Development Trends for AI", "starts_on_page": 38},
+        {"id": "1.7", "title": "Chapter Summary", "starts_on_page": 40},
+        {"id": "1.8", "title": "Exercises", "starts_on_page": 40}
+      ]
+    }
+  ]
+}

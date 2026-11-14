@@ -1,0 +1,4 @@
+﻿strategy,split,question_count,hit1_n,hit1_rate,evidence_hit3_n,evidence_hit3_rate,filter_questions,filter_compliant_n,filter_compliance_rate,mean_search_ms
+A,dev,15,5,0.3333333333333333,9,0.6,3,1,0.3333333333333333,56.77764667198062
+B,dev,15,7,0.4666666666666667,9,0.6,3,1,0.3333333333333333,55.53906000374506
+C,dev,15,8,0.5333333333333333,10,0.6666666666666666,3,3,1.0,50.918639986775815

@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-11-14T07:30:09.278981+00:00",
+  "checks": [
+    {
+      "check": "corpus_chunks_vectors",
+      "status": "passed"
+    },
+    {
+      "check": "benchmark_traces_metrics_freeze",
+      "status": "passed"
+    },
+    {
+      "check": "python_syntax",
+      "status": "passed"
+    },
+    {
+      "check": "database_all_592_rows",
+      "status": "passed"
+    }
+  ],
+  "manual_review": "Điểm nháp cần người học rà và xác nhận; không thay cho kiểm tra thủ công.",
+  "status": "passed"
+}

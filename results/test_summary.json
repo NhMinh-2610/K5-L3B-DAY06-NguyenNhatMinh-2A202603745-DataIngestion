@@ -1,0 +1,82 @@
+{
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "question_count": 5,
+      "hit1_n": 0,
+      "hit1_rate": 0.0,
+      "evidence_hit3_n": 1,
+      "evidence_hit3_rate": 0.2,
+      "filter_questions": 2,
+      "filter_compliant_n": 0,
+      "filter_compliance_rate": 0.0,
+      "mean_search_ms": 75.09251998271793
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "question_count": 5,
+      "hit1_n": 0,
+      "hit1_rate": 0.0,
+      "evidence_hit3_n": 1,
+      "evidence_hit3_rate": 0.2,
+      "filter_questions": 2,
+      "filter_compliant_n": 1,
+      "filter_compliance_rate": 0.5,
+      "mean_search_ms": 57.66360000707209
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "question_count": 5,
+      "hit1_n": 0,
+      "hit1_rate": 0.0,
+      "evidence_hit3_n": 1,
+      "evidence_hit3_rate": 0.2,
+      "filter_questions": 2,
+      "filter_compliant_n": 2,
+      "filter_compliance_rate": 1.0,
+      "mean_search_ms": 55.35794000606984
+    }
+  ],
+  "matching": "source_page_and_full_quote_whitespace_normalized",
+  "status": "complete",
+  "split": "test",
+  "completed_at_utc": "2026-11-14T05:20:42.390667+00:00",
+  "model": {
+    "provider": "sentence-transformers-local",
+    "model_name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimensions": 384,
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 4,
+    "batch_size": 16,
+    "document_prefix": "passage: ",
+    "query_prefix": "query: ",
+    "normalize_embeddings": true,
+    "max_tokens": 512,
+    "libraries": {
+      "sentence-transformers": "6.2.0",
+      "transformers": "5.22.1",
+      "torch": "2.15.0"
+    }
+  },
+  "model_signature": "0dfa971762747459e20d16f5fbcf31c26eceda7c23e38efd1ad3af675ad2b835",
+  "model_load_seconds": 57.79705269995611,
+  "fingerprints": {
+    "questions_sha256": "5c2b7cd0cca7b6c7cc1c20329494ba16c31ce38324dc03b3471fa2e49804b6c1",
+    "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+    "strategies_sha256": "573c6d31b403e51f0fc8c9bb507b5d23424726d48c39d64bfe6e43394d9e02f4",
+    "embedding_sha256": "3c369ec27a8c3e34b5d2a90f591dfdfd684d1c05556dd89283c282916aed99d5"
+  },
+  "top_k": 3,
+  "trace_rows": 15,
+  "trace_path": "results/test_trace.jsonl",
+  "query_embedding": "Mỗi câu được embed một lần và dùng chung vector cho A/B/C.",
+  "evidence_review": "Đối chiếu toàn bộ quote đã chốt; trường hợp bằng chứng tương đương cần kiểm tra riêng.",
+  "service_cost_usd": 0,
+  "selected_strategy": "C",
+  "selection_fixed_at_utc": "2026-11-14T04:59:00.595034+00:00"
+}

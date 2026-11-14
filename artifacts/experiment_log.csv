@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,document_id|source|page|section|language|year|document_type,none,intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3,Đoạn cố định dễ triển khai nhưng có thể cắt ngang ý.,5/15,9/15,0/5,1/5,
+B,paragraph,500,0,document_id|source|page|section|language|year|document_type,none,intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3,Giữ ranh giới đoạn có thể tăng tính mạch lạc; đoạn dài vẫn phải tách.,7/15,9/15,0/5,1/5,Đoạn dài tách ở khoảng trắng.
+C,paragraph,500,0,document_id|source|page|section|language|year|document_type,section khi câu hỏi yêu cầu,intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3,Lọc theo mục có thể giảm kết quả ngoài phạm vi.,8/15,10/15,0/5,1/5,Dùng chung chunk B; chỉ khác metadata filter.

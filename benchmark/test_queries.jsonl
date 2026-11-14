@@ -1,0 +1,5 @@
+{"id": "q16", "split": "test", "question": "Ba trường phái AI chính được nhắc đến trong tài liệu là gì?", "filter": {}}
+{"id": "q17", "split": "test", "question": "Tài liệu mô tả CPU được tối ưu cho kiểu xử lý nào?", "filter": {}}
+{"id": "q18", "split": "test", "question": "Trong phần Chiến lược phát triển AI của Huawei, suy luận trực tuyến và suy luận theo lô của ModelArts khác nhau ở điểm nào?", "filter": {"section": "1.4"}}
+{"id": "q19", "split": "test", "question": "Theo tài liệu, hai nhóm mạng nơron trong GAN tương tác với nhau như thế nào?", "filter": {}}
+{"id": "q20", "split": "test", "question": "Trong phần Xu hướng phát triển AI, việc dùng nhiều nguồn dữ liệu để huấn luyện bằng học liên kết phải bảo đảm điều kiện gì?", "filter": {"section": "1.6"}}

@@ -1,0 +1,68 @@
+{
+  "chosen_at_utc": "2026-11-14T04:59:03.283499+00:00",
+  "chosen_before_test_retrieval": true,
+  "rule": "10 trang nội dung đầu theo document_id/page; điểm giữa text trang, dịch đến ký tự không trắng. Nếu nhiều chunk phủ điểm, chọn chunk có vị trí bắt đầu nhỏ nhất.",
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "anchors": [
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p001",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 1,
+      "page_char": 875
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p002",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 2,
+      "page_char": 1046
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p003",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 3,
+      "page_char": 908
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p004",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 4,
+      "page_char": 896
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p005",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 5,
+      "page_char": 1302
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p006",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 6,
+      "page_char": 661
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p007",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 7,
+      "page_char": 1558
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p008",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 8,
+      "page_char": 1461
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p009",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 9,
+      "page_char": 1700
+    },
+    {
+      "page_id": "huawei-ai-technology-ch01-2023:p010",
+      "document_id": "huawei-ai-technology-ch01-2023",
+      "page": 10,
+      "page_char": 1595
+    }
+  ]
+}

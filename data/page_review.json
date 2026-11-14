@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "review_status": "source_checked",
+  "student_confirmation": "pending",
+  "reviewed_at": "2026-11-14",
+  "counting_rule": "Count unique physical PDF pages with useful readable body text. Do not count section fragments as extra pages. Exclude figure-only/mostly-figure pages with insufficient standalone text, and conservatively exclude the mixed summary/exercises page and the license-only page. There is no 1500-character threshold for PDF pages.",
+  "documents": {
+    "huawei-ai-technology-ch01-2023": {
+      "sha256": "bb86a80609b36bc60ca8fcee2e5a674c23b9de4425a4e33e5d59c60d52364af8",
+      "expected_physical_pages": 41,
+      "review_method": {
+        "text": "Inspect layout-extracted text per page, headings, captions, sparse pages and license notice.",
+        "visual": "Contact sheets covering all 41 pages; full-page renders for the listed detailed pages. Figures are not transcribed into the text corpus.",
+        "detailed_visual_pages": [1, 13, 17, 22, 24, 25, 26, 27, 28, 29, 30, 32, 36, 38, 40, 41],
+        "limitations": "Image text and table structure are not guaranteed to be extracted. This review checks corpus eligibility; benchmark and grounding scores will be recorded separately."
+      },
+      "included_page_ranges": [[1, 21], [23, 25], [28, 28], [30, 39]],
+      "excluded_pages": {
+        "22": {"reason": "Figure 1.8 occupies the page. The architecture diagram is an image and the extracted text is effectively its caption/header.", "kind": "figure_only"},
+        "26": {"reason": "Figures 1.10 and 1.11 with captions; no substantial extracted body paragraph.", "kind": "figure_only"},
+        "27": {"reason": "Figures 1.12 to 1.14 with captions; no substantial extracted body paragraph.", "kind": "figure_only"},
+        "29": {"reason": "Mostly Figures 1.17 and 1.18, a short continuation sentence and the opening of section 1.3.2. Conservatively exclude from the text corpus.", "kind": "mostly_figures"},
+        "40": {"reason": "Mixed continuation of section 1.6, chapter summary and exercises. Conservatively exclude the whole page; sufficient content remains elsewhere.", "kind": "mixed_summary_exercises"},
+        "41": {"reason": "License notice only; retained as permission evidence, not knowledge content.", "kind": "license_only"}
+      },
+      "page_notes": {
+        "1": "Chapter title and introduction are followed by section 1.1. Keep separate section spans.",
+        "2": "Figure 1.1 is not transcribed, but the page has substantial body text.",
+        "3": "Figure 1.2 is not transcribed; body text is retained.",
+        "4": "Figure 1.3 is not transcribed; body text is retained.",
+        "6": "Timeline Figure 1.4 is not transcribed; body text below is retained.",
+        "13": "Heading 1.2 is verified against the page; Figure 1.5 is not transcribed.",
+        "17": "The three U+0081 glyphs are list bullets in the page render; normalize them to U+2022 using the source-specific replacement.",
+        "18": "Diagram Figure 1.6 is not transcribed; comparison paragraphs remain usable.",
+        "19": "Table 1.1 may lose cell relationships in text extraction. Prefer the surrounding prose for benchmark evidence; check the PDF for any table-based question.",
+        "21": "Market forecast chart is not transcribed; body paragraphs are retained.",
+        "24": "Figure 1.9 is not transcribed; historical body paragraphs are retained. The four U+0081 glyphs are visually verified list bullets, normalized to U+2022.",
+        "25": "Begins with section 1.2 continuation and later starts 1.3. Split at the verified heading rather than label the whole page as 1.3.",
+        "28": "Figures 1.15 and 1.16 are not transcribed; the NLP paragraph below is readable and retained.",
+        "30": "Figures 1.19 and 1.20 are not transcribed; the Smart City paragraph below is retained.",
+        "31": "Figure 1.21 is not transcribed; application paragraphs remain readable.",
+        "32": "Contains both sections 1.3 and 1.4. Use section spans for filtering.",
+        "33": "Figure 1.22 is not transcribed; body text is retained.",
+        "36": "Contains sections 1.4 and 1.5. Figure 1.23 is not transcribed; retain body text with section spans.",
+        "38": "Contains sections 1.5 and 1.6; keep their boundary for metadata filtering.",
+        "39": "Figure 1.24 is not transcribed. Predictions in the text are historical claims in this source, not verified current facts."
+      }
+    }
+  }
+}

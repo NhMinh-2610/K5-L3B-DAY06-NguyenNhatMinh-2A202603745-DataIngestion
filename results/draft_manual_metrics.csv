@@ -1,0 +1,4 @@
+﻿sample_id,strategy,review_status,coherence_mean_out_of_2,coherence_n,metadata_correct_n,metadata_checked_n,filter_compliant_questions,filter_questions,grounding_0,grounding_1,grounding_2,grounding_mean_out_of_2,grounding_n,verified_hit1_n,verified_hit3_n,verified_retrieval_n
+A,A,draft,1.0,10,15,15,0,2,3,0,2,0.8,5,1,2,5
+B,B,draft,1.0,10,15,15,1,2,3,0,2,0.8,5,0,2,5
+C,C,draft,1.0,10,15,15,2,2,3,0,2,0.8,5,1,2,5

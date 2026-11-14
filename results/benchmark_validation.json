@@ -1,0 +1,249 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-14T07:16:46.299780+00:00",
+  "benchmark_version": "1.0.0",
+  "question_count": 20,
+  "split_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_question_ids": [
+    "q05",
+    "q09",
+    "q14",
+    "q18",
+    "q20"
+  ],
+  "test_filter_question_ids": [
+    "q18",
+    "q20"
+  ],
+  "gold_evidence_count": 23,
+  "dev_test_evidence_pages_disjoint": true,
+  "student_checklist_counts": {
+    "chua_kiem_tra": 20,
+    "dong_y": 0,
+    "can_sua": 0
+  },
+  "checks": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "gold_count": 2,
+      "primary_page": 1,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 3,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 5,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 9,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 14,
+      "filter": {
+        "section": "1.2"
+      },
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 15,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 16,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "gold_count": 2,
+      "primary_page": 20,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 23,
+      "filter": {
+        "section": "1.2"
+      },
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 25,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 28,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 30,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 32,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 36,
+      "filter": {
+        "section": "1.5"
+      },
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "gold_count": 1,
+      "primary_page": 39,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "gold_count": 1,
+      "primary_page": 12,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "gold_count": 2,
+      "primary_page": 18,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "gold_count": 1,
+      "primary_page": 34,
+      "filter": {
+        "section": "1.4"
+      },
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "gold_count": 1,
+      "primary_page": 37,
+      "filter": {},
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "gold_count": 1,
+      "primary_page": 38,
+      "filter": {
+        "section": "1.6"
+      },
+      "source_text_check": "passed",
+      "page_offset_check": "passed",
+      "filter_scope_check": "passed"
+    }
+  ],
+  "retrieval_executed": false,
+  "scope": "Checks cover source text, page/section offsets, fixed split, filters and query-only inputs; no retrieval or answer-quality scores are assigned.",
+  "files_sha256": {
+    "benchmark/questions.jsonl": "5c2b7cd0cca7b6c7cc1c20329494ba16c31ce38324dc03b3471fa2e49804b6c1",
+    "benchmark/split.json": "15b5825462a1b77ba87633e4a8df009d6658825d6ba6a15f15d9276b9e65adb4",
+    "data/processed/corpus.jsonl": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+    "benchmark/dev_queries.jsonl": "09cb14e0487d8b8498b7ef1fb371f075e0e33a64693874932110cacb7407b87b",
+    "benchmark/test_queries.jsonl": "c9a8e81e9556c48579e60c1bbbaea719e37e06819111674d2cf5e54df2a2adc6"
+  }
+}

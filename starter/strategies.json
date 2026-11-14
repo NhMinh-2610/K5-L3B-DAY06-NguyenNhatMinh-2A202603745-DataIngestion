@@ -1,0 +1,26 @@
+{
+  "corpus_path": "data/processed/corpus.jsonl",
+  "metric": "cosine",
+  "top_k": 3,
+  "strategies": {
+    "A": {
+      "chunking": "fixed",
+      "chunk_size": 500,
+      "overlap": 50,
+      "question_filter": false,
+      "chunks_path": "data/processed/chunks_A.jsonl"
+    },
+    "B": {
+      "chunking": "paragraph",
+      "chunk_size": 500,
+      "overlap": 0,
+      "question_filter": false,
+      "chunks_path": "data/processed/chunks_B.jsonl"
+    },
+    "C": {
+      "reuse_chunks_from": "B",
+      "question_filter": true,
+      "chunks_path": "data/processed/chunks_B.jsonl"
+    }
+  }
+}

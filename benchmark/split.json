@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "benchmark_version": "1.0.0",
+  "fixed_on": "2026-11-14",
+  "status": "fixed_before_first_retrieval",
+  "question_language": "vi",
+  "document_language": "en",
+  "dev_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15"
+  ],
+  "test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "split_method": "Assign different physical evidence pages to dev and test, including alternative gold pages. Topics can overlap because all questions come from one chapter.",
+  "limitations": [
+    "Chỉ có một chương sách; các tập vẫn dùng chung thuật ngữ và một số chủ đề.",
+    "Test có 5 câu và không bao phủ toàn bộ mục; kết quả chỉ có ý nghĩa trong phạm vi corpus này.",
+    "Câu hỏi tiếng Việt trên tài liệu tiếng Anh; yếu tố ngôn ngữ phải được giữ nguyên giữa các cấu hình."
+  ],
+  "selection_criteria_in_order": [
+    "Ưu tiên Evidence Hit@3 trên dev cao nhất.",
+    "Nếu bằng nhau, chọn Hit@1 trên dev cao hơn.",
+    "Nếu tiếp tục bằng nhau, ưu tiên thời gian ingest thấp hơn, sau đó số chunk ít hơn."
+  ],
+  "retrieval_top_k": 3,
+  "gold_matching": "Correct source/page and sufficient evidence in one retrieved chunk; accept any listed gold alternative or a separately reviewed equivalent. Evidence split across chunks does not replace the main metric.",
+  "filter_policy": "Only section supplied by question scope; C applies it before ranking, while A/B ignore it. Queries without a filter use unfiltered retrieval in C.",
+  "questions_sha256": "5c2b7cd0cca7b6c7cc1c20329494ba16c31ce38324dc03b3471fa2e49804b6c1",
+  "corpus_sha256": "80cf927205808ce9bbcf562a002472b47f3ffe652c44242585d81a517637df1d",
+  "source_pdf_sha256": "bb86a80609b36bc60ca8fcee2e5a674c23b9de4425a4e33e5d59c60d52364af8"
+}

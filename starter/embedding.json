@@ -1,0 +1,13 @@
+{
+  "provider": "sentence-transformers-local",
+  "model_name": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "device": "cpu",
+  "batch_size": 16,
+  "document_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "normalize_embeddings": true,
+  "local_files_only": true,
+  "model_card": "https://huggingface.co/intfloat/multilingual-e5-small"
+}

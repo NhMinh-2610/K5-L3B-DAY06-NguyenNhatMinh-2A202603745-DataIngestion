@@ -1,0 +1,1538 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-14T04:01:42.501966+00:00",
+  "page_numbering": "physical_pdf_1_based",
+  "counting_rule": "Count unique physical PDF pages with useful readable body text. Do not count section fragments as extra pages. Exclude figure-only/mostly-figure pages with insufficient standalone text, and conservatively exclude the mixed summary/exercises page and the license-only page. There is no 1500-character threshold for PDF pages.",
+  "character_count_definition": "Python len(text) after NFKC normalization, whitespace cleanup, verified glyph replacement and removal of reviewed running headers; includes retained newlines.",
+  "runtime": {
+    "python": "3.13.7",
+    "pypdf": "6.21.4",
+    "extraction_mode": "layout",
+    "normalization": "nfkc-layout-whitespace-v1"
+  },
+  "configuration_sha256": {
+    "sources": "8dc72a27416fef6c4c15dfe0e26d67d30d1b9631cd57cff0ff63d99ea660477f",
+    "review": "125ff98f2ebe497c1ad2552ad9e085160bc5bf2434683cad0de3ed8c00100685"
+  },
+  "outputs": {
+    "all_pages": "data/processed/pages.jsonl",
+    "selected_section_units": "data/processed/corpus.jsonl",
+    "inventory": "results/data_inventory.csv",
+    "quality": "results/data_quality.json"
+  },
+  "summary": {
+    "generated_at_utc": "2026-11-14T04:01:42.501966+00:00",
+    "document_count": 1,
+    "physical_pages": 41,
+    "included_content_pages": 35,
+    "excluded_pages": [
+      22,
+      26,
+      27,
+      29,
+      40,
+      41
+    ],
+    "meets_minimum_30_pages": true,
+    "section_units": 40,
+    "included_page_characters": 79973,
+    "min_included_page_characters": 920,
+    "max_included_page_characters": 3399,
+    "empty_pages_after_cleanup": [
+      22
+    ],
+    "extraction_error_pages": [],
+    "mixed_section_pages": [
+      1,
+      25,
+      32,
+      36,
+      38
+    ],
+    "ocr_applied": false,
+    "paid_api_calls": 0,
+    "paid_service_cost": 0,
+    "elapsed_seconds": 0.765,
+    "pdf_warning_count": 1,
+    "optional_fonttools_missing_warning_count": 0,
+    "other_pdf_warnings": [
+      "Rotated text discovered. Output will be incomplete."
+    ],
+    "unusual_control_character_pages": [],
+    "warning_log": "results/data_preparation.log",
+    "per_section": {
+      "1": {
+        "title": "A General Introduction to Artificial Intelligence",
+        "units": 1,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p001"
+        ],
+        "page_count": 1
+      },
+      "1.1": {
+        "title": "The Concept of Artificial Intelligence",
+        "units": 12,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p001",
+          "huawei-ai-technology-ch01-2023:p002",
+          "huawei-ai-technology-ch01-2023:p003",
+          "huawei-ai-technology-ch01-2023:p004",
+          "huawei-ai-technology-ch01-2023:p005",
+          "huawei-ai-technology-ch01-2023:p006",
+          "huawei-ai-technology-ch01-2023:p007",
+          "huawei-ai-technology-ch01-2023:p008",
+          "huawei-ai-technology-ch01-2023:p009",
+          "huawei-ai-technology-ch01-2023:p010",
+          "huawei-ai-technology-ch01-2023:p011",
+          "huawei-ai-technology-ch01-2023:p012"
+        ],
+        "page_count": 12
+      },
+      "1.2": {
+        "title": "AI-Related Technologies",
+        "units": 12,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p013",
+          "huawei-ai-technology-ch01-2023:p014",
+          "huawei-ai-technology-ch01-2023:p015",
+          "huawei-ai-technology-ch01-2023:p016",
+          "huawei-ai-technology-ch01-2023:p017",
+          "huawei-ai-technology-ch01-2023:p018",
+          "huawei-ai-technology-ch01-2023:p019",
+          "huawei-ai-technology-ch01-2023:p020",
+          "huawei-ai-technology-ch01-2023:p021",
+          "huawei-ai-technology-ch01-2023:p023",
+          "huawei-ai-technology-ch01-2023:p024",
+          "huawei-ai-technology-ch01-2023:p025"
+        ],
+        "page_count": 12
+      },
+      "1.3": {
+        "title": "The Technologies and Applications of AI",
+        "units": 5,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p025",
+          "huawei-ai-technology-ch01-2023:p028",
+          "huawei-ai-technology-ch01-2023:p030",
+          "huawei-ai-technology-ch01-2023:p031",
+          "huawei-ai-technology-ch01-2023:p032"
+        ],
+        "page_count": 5
+      },
+      "1.4": {
+        "title": "Huawei’s AI Development Strategy",
+        "units": 5,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p032",
+          "huawei-ai-technology-ch01-2023:p033",
+          "huawei-ai-technology-ch01-2023:p034",
+          "huawei-ai-technology-ch01-2023:p035",
+          "huawei-ai-technology-ch01-2023:p036"
+        ],
+        "page_count": 5
+      },
+      "1.5": {
+        "title": "The Controversy of AI",
+        "units": 3,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p036",
+          "huawei-ai-technology-ch01-2023:p037",
+          "huawei-ai-technology-ch01-2023:p038"
+        ],
+        "page_count": 3
+      },
+      "1.6": {
+        "title": "The Development Trends for AI",
+        "units": 2,
+        "pages": [
+          "huawei-ai-technology-ch01-2023:p038",
+          "huawei-ai-technology-ch01-2023:p039"
+        ],
+        "page_count": 2
+      }
+    },
+    "runtime": {
+      "python": "3.13.7",
+      "pypdf": "6.21.4",
+      "extraction_mode": "layout",
+      "normalization": "nfkc-layout-whitespace-v1"
+    },
+    "review_status": "source_checked",
+    "student_confirmation": "pending"
+  },
+  "documents": [
+    {
+      "source_id": "huawei-ai-technology-ch01-2023",
+      "title": "A General Introduction to Artificial Intelligence",
+      "authors": [
+        "Huawei Technologies Co., Ltd."
+      ],
+      "book_title": "Artificial Intelligence Technology",
+      "source_path_or_url": "https://link.springer.com/chapter/10.1007/978-981-19-2879-6_1",
+      "doi": "10.1007/978-981-19-2879-6_1",
+      "local_path": "data/raw/978-981-19-2879-6_1.pdf",
+      "license_or_permission": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "permission_reference": "License statement on physical PDF page 41 and the official chapter page",
+      "accessed_at": "2026-11-14",
+      "accessed_at_basis": "Date the official chapter page was checked; the original download date has not been provided.",
+      "downloaded_at": null,
+      "first_online": "2022-10-22",
+      "year": 2023,
+      "year_basis": "Copyright year printed on physical PDF page 1; first-online date is recorded separately.",
+      "version": "DOI 10.1007/978-981-19-2879-6_1; exact local snapshot identified by SHA-256 in manifest",
+      "language": "en",
+      "document_type": "book_chapter",
+      "attribution": "Huawei Technologies Co., Ltd. (2023). A General Introduction to Artificial Intelligence. In Artificial Intelligence Technology. https://doi.org/10.1007/978-981-19-2879-6_1. Copyright The Author(s) 2023. CC BY-NC-ND 4.0.",
+      "processing_note": "Normalized text is generated locally for this lab. Generated text and review images are ignored by Git. Preserve attribution and review license conditions before sharing processed content; third-party material may carry separate notices.",
+      "running_header_regexes": [
+        "^[0-9]+ 1 A General Introduction to Artificial Intelligence$",
+        "^1\\.[1-8] .+ [0-9]+$",
+        "^© The Author\\(s\\) 2023 [0-9]+$",
+        "^Huawei Technologies Co\\., Ltd\\., Artificial Intelligence Technology,$",
+        "^https://doi\\.org/10\\.1007/978-981-19-2879-6_1$"
+      ],
+      "verified_glyph_replacements": {
+        "": "•"
+      },
+      "glyph_replacement_basis": "The U+0081 characters on physical pages 17 and 24 were checked against full-page renders and are round list bullets, not body letters.",
+      "initial_section": {
+        "id": "1",
+        "title": "A General Introduction to Artificial Intelligence"
+      },
+      "sections": [
+        {
+          "id": "1.1",
+          "title": "The Concept of Artificial Intelligence",
+          "starts_on_page": 1
+        },
+        {
+          "id": "1.2",
+          "title": "AI-Related Technologies",
+          "starts_on_page": 13
+        },
+        {
+          "id": "1.3",
+          "title": "The Technologies and Applications of AI",
+          "starts_on_page": 25
+        },
+        {
+          "id": "1.4",
+          "title": "Huawei’s AI Development Strategy",
+          "starts_on_page": 32
+        },
+        {
+          "id": "1.5",
+          "title": "The Controversy of AI",
+          "starts_on_page": 36
+        },
+        {
+          "id": "1.6",
+          "title": "The Development Trends for AI",
+          "starts_on_page": 38
+        },
+        {
+          "id": "1.7",
+          "title": "Chapter Summary",
+          "starts_on_page": 40
+        },
+        {
+          "id": "1.8",
+          "title": "Exercises",
+          "starts_on_page": 40
+        }
+      ],
+      "file_sha256": "bb86a80609b36bc60ca8fcee2e5a674c23b9de4425a4e33e5d59c60d52364af8",
+      "file_size_bytes": 1301804,
+      "physical_page_count": 41,
+      "included_page_count": 35,
+      "included_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "excluded_pages": [
+        22,
+        26,
+        27,
+        29,
+        40,
+        41
+      ],
+      "included_char_count": 79973,
+      "review": {
+        "status": "source_checked",
+        "student_confirmation": "pending",
+        "reviewed_at": "2026-11-14",
+        "method": {
+          "text": "Inspect layout-extracted text per page, headings, captions, sparse pages and license notice.",
+          "visual": "Contact sheets covering all 41 pages; full-page renders for the listed detailed pages. Figures are not transcribed into the text corpus.",
+          "detailed_visual_pages": [
+            1,
+            13,
+            17,
+            22,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            36,
+            38,
+            40,
+            41
+          ],
+          "limitations": "Image text and table structure are not guaranteed to be extracted. This review checks corpus eligibility; benchmark and grounding scores will be recorded separately."
+        }
+      },
+      "pages": [
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p001",
+          "page": 1,
+          "extracted_char_count": 2079,
+          "char_count": 1750,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 3,
+          "sections": [
+            "1",
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 465,
+              "section": "1",
+              "section_title": "A General Introduction to Artificial Intelligence"
+            },
+            {
+              "start_char": 465,
+              "end_char": 1750,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Chapter title and introduction are followed by section 1.1. Keep separate section spans."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p002",
+          "page": 2,
+          "extracted_char_count": 2412,
+          "char_count": 2092,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2092,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.1 is not transcribed, but the page has substantial body text."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p003",
+          "page": 3,
+          "extracted_char_count": 2082,
+          "char_count": 1817,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1817,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.2 is not transcribed; body text is retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p004",
+          "page": 4,
+          "extracted_char_count": 1999,
+          "char_count": 1792,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1792,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.3 is not transcribed; body text is retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p005",
+          "page": 5,
+          "extracted_char_count": 2789,
+          "char_count": 2604,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2604,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p006",
+          "page": 6,
+          "extracted_char_count": 1561,
+          "char_count": 1320,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1320,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing"
+          ],
+          "review_note": "Timeline Figure 1.4 is not transcribed; body text below is retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p007",
+          "page": 7,
+          "extracted_char_count": 3482,
+          "char_count": 3117,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 3117,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p008",
+          "page": 8,
+          "extracted_char_count": 3451,
+          "char_count": 2923,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2923,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p009",
+          "page": 9,
+          "extracted_char_count": 3744,
+          "char_count": 3399,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 3399,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p010",
+          "page": 10,
+          "extracted_char_count": 3555,
+          "char_count": 3191,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 3191,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p011",
+          "page": 11,
+          "extracted_char_count": 3059,
+          "char_count": 2726,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2726,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p012",
+          "page": 12,
+          "extracted_char_count": 3049,
+          "char_count": 2729,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.1"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2729,
+              "section": "1.1",
+              "section_title": "The Concept of Artificial Intelligence"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p013",
+          "page": 13,
+          "extracted_char_count": 1939,
+          "char_count": 1650,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1650,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Heading 1.2 is verified against the page; Figure 1.5 is not transcribed."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p014",
+          "page": 14,
+          "extracted_char_count": 2868,
+          "char_count": 2457,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2457,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p015",
+          "page": 15,
+          "extracted_char_count": 2470,
+          "char_count": 2138,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2138,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p016",
+          "page": 16,
+          "extracted_char_count": 3353,
+          "char_count": 2812,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2812,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p017",
+          "page": 17,
+          "extracted_char_count": 3196,
+          "char_count": 2584,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2584,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "The three U+0081 glyphs are list bullets in the page render; normalize them to U+2022 using the source-specific replacement."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p018",
+          "page": 18,
+          "extracted_char_count": 2488,
+          "char_count": 2102,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2102,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing"
+          ],
+          "review_note": "Diagram Figure 1.6 is not transcribed; comparison paragraphs remain usable."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p019",
+          "page": 19,
+          "extracted_char_count": 3015,
+          "char_count": 2402,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2402,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Table 1.1 may lose cell relationships in text extraction. Prefer the surrounding prose for benchmark evidence; check the PDF for any table-based question."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p020",
+          "page": 20,
+          "extracted_char_count": 3535,
+          "char_count": 3296,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 3296,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p021",
+          "page": 21,
+          "extracted_char_count": 2542,
+          "char_count": 2314,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2314,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Market forecast chart is not transcribed; body paragraphs are retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p022",
+          "page": 22,
+          "extracted_char_count": 123,
+          "char_count": 0,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "Figure 1.8 occupies the page. The architecture diagram is an image and the extracted text is effectively its caption/header.",
+          "exclusion_kind": "figure_only",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [],
+          "section_spans": [],
+          "quality_flags": [
+            "sparse_text_check_visual_review"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p023",
+          "page": 23,
+          "extracted_char_count": 2844,
+          "char_count": 2499,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2499,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p024",
+          "page": 24,
+          "extracted_char_count": 1983,
+          "char_count": 1632,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1632,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.9 is not transcribed; historical body paragraphs are retained. The four U+0081 glyphs are visually verified list bullets, normalized to U+2022."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p025",
+          "page": 25,
+          "extracted_char_count": 2998,
+          "char_count": 2565,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.2",
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 672,
+              "section": "1.2",
+              "section_title": "AI-Related Technologies"
+            },
+            {
+              "start_char": 672,
+              "end_char": 2565,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Begins with section 1.2 continuation and later starts 1.3. Split at the verified heading rather than label the whole page as 1.3."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p026",
+          "page": 26,
+          "extracted_char_count": 253,
+          "char_count": 65,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "Figures 1.10 and 1.11 with captions; no substantial extracted body paragraph.",
+          "exclusion_kind": "figure_only",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 65,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "sparse_text_check_visual_review",
+            "figure_or_table_information_may_be_missing"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p027",
+          "page": 27,
+          "extracted_char_count": 266,
+          "char_count": 84,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "Figures 1.12 to 1.14 with captions; no substantial extracted body paragraph.",
+          "exclusion_kind": "figure_only",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 84,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "sparse_text_check_visual_review",
+            "figure_or_table_information_may_be_missing"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p028",
+          "page": 28,
+          "extracted_char_count": 1159,
+          "char_count": 920,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 920,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figures 1.15 and 1.16 are not transcribed; the NLP paragraph below is readable and retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p029",
+          "page": 29,
+          "extracted_char_count": 478,
+          "char_count": 282,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "Mostly Figures 1.17 and 1.18, a short continuation sentence and the opening of section 1.3.2. Conservatively exclude from the text corpus.",
+          "exclusion_kind": "mostly_figures",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 282,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "sparse_text_check_visual_review",
+            "figure_or_table_information_may_be_missing"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p030",
+          "page": 30,
+          "extracted_char_count": 1203,
+          "char_count": 962,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 962,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figures 1.19 and 1.20 are not transcribed; the Smart City paragraph below is retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p031",
+          "page": 31,
+          "extracted_char_count": 2164,
+          "char_count": 1895,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1895,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.21 is not transcribed; application paragraphs remain readable."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p032",
+          "page": 32,
+          "extracted_char_count": 2788,
+          "char_count": 2511,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.3",
+            "1.4"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2199,
+              "section": "1.3",
+              "section_title": "The Technologies and Applications of AI"
+            },
+            {
+              "start_char": 2199,
+              "end_char": 2511,
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Contains both sections 1.3 and 1.4. Use section spans for filtering."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p033",
+          "page": 33,
+          "extracted_char_count": 1640,
+          "char_count": 1398,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.4"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1398,
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.22 is not transcribed; body text is retained."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p034",
+          "page": 34,
+          "extracted_char_count": 3506,
+          "char_count": 3006,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.4"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 3006,
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p035",
+          "page": 35,
+          "extracted_char_count": 3083,
+          "char_count": 2677,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.4"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2677,
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p036",
+          "page": 36,
+          "extracted_char_count": 2096,
+          "char_count": 1823,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.4",
+            "1.5"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1471,
+              "section": "1.4",
+              "section_title": "Huawei’s AI Development Strategy"
+            },
+            {
+              "start_char": 1471,
+              "end_char": 1823,
+              "section": "1.5",
+              "section_title": "The Controversy of AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Contains sections 1.4 and 1.5. Figure 1.23 is not transcribed; retain body text with section spans."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p037",
+          "page": 37,
+          "extracted_char_count": 2751,
+          "char_count": 2505,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.5"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 2505,
+              "section": "1.5",
+              "section_title": "The Controversy of AI"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p038",
+          "page": 38,
+          "extracted_char_count": 2804,
+          "char_count": 2527,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.5",
+            "1.6"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 484,
+              "section": "1.5",
+              "section_title": "The Controversy of AI"
+            },
+            {
+              "start_char": 484,
+              "end_char": 2527,
+              "section": "1.6",
+              "section_title": "The Development Trends for AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Contains sections 1.5 and 1.6; keep their boundary for metadata filtering."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p039",
+          "page": 39,
+          "extracted_char_count": 2188,
+          "char_count": 1838,
+          "include_in_corpus": true,
+          "review_status": "source_checked",
+          "exclusion_reason": null,
+          "exclusion_kind": null,
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.6"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1838,
+              "section": "1.6",
+              "section_title": "The Development Trends for AI"
+            }
+          ],
+          "quality_flags": [
+            "figure_or_table_information_may_be_missing",
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": "Figure 1.24 is not transcribed. Predictions in the text are historical claims in this source, not verified current facts."
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p040",
+          "page": 40,
+          "extracted_char_count": 2614,
+          "char_count": 2296,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "Mixed continuation of section 1.6, chapter summary and exercises. Conservatively exclude the whole page; sufficient content remains elsewhere.",
+          "exclusion_kind": "mixed_summary_exercises",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.6",
+            "1.7",
+            "1.8"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 746,
+              "section": "1.6",
+              "section_title": "The Development Trends for AI"
+            },
+            {
+              "start_char": 746,
+              "end_char": 1409,
+              "section": "1.7",
+              "section_title": "Chapter Summary"
+            },
+            {
+              "start_char": 1409,
+              "end_char": 2296,
+              "section": "1.8",
+              "section_title": "Exercises"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        },
+        {
+          "page_id": "huawei-ai-technology-ch01-2023:p041",
+          "page": 41,
+          "extracted_char_count": 1177,
+          "char_count": 1000,
+          "include_in_corpus": false,
+          "review_status": "source_checked",
+          "exclusion_reason": "License notice only; retained as permission evidence, not knowledge content.",
+          "exclusion_kind": "license_only",
+          "extraction_status": "ok",
+          "ocr_applied": false,
+          "removed_running_header_lines": 1,
+          "sections": [
+            "1.8"
+          ],
+          "section_spans": [
+            {
+              "start_char": 0,
+              "end_char": 1000,
+              "section": "1.8",
+              "section_title": "Exercises"
+            }
+          ],
+          "quality_flags": [
+            "line_end_hyphenation_preserved"
+          ],
+          "review_note": null
+        }
+      ]
+    }
+  ]
+}

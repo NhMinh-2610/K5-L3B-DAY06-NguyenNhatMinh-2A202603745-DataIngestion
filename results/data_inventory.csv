@@ -1,0 +1,42 @@
+﻿document_id,page,page_id,char_count,included,sections,extraction_status,quality_flags,exclusion_reason,review_note
+huawei-ai-technology-ch01-2023,1,huawei-ai-technology-ch01-2023:p001,1750,True,1|1.1,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Chapter title and introduction are followed by section 1.1. Keep separate section spans.
+huawei-ai-technology-ch01-2023,2,huawei-ai-technology-ch01-2023:p002,2092,True,1.1,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,"Figure 1.1 is not transcribed, but the page has substantial body text."
+huawei-ai-technology-ch01-2023,3,huawei-ai-technology-ch01-2023:p003,1817,True,1.1,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figure 1.2 is not transcribed; body text is retained.
+huawei-ai-technology-ch01-2023,4,huawei-ai-technology-ch01-2023:p004,1792,True,1.1,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figure 1.3 is not transcribed; body text is retained.
+huawei-ai-technology-ch01-2023,5,huawei-ai-technology-ch01-2023:p005,2604,True,1.1,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,6,huawei-ai-technology-ch01-2023:p006,1320,True,1.1,ok,figure_or_table_information_may_be_missing,,Timeline Figure 1.4 is not transcribed; body text below is retained.
+huawei-ai-technology-ch01-2023,7,huawei-ai-technology-ch01-2023:p007,3117,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,8,huawei-ai-technology-ch01-2023:p008,2923,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,9,huawei-ai-technology-ch01-2023:p009,3399,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,10,huawei-ai-technology-ch01-2023:p010,3191,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,11,huawei-ai-technology-ch01-2023:p011,2726,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,12,huawei-ai-technology-ch01-2023:p012,2729,True,1.1,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,13,huawei-ai-technology-ch01-2023:p013,1650,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Heading 1.2 is verified against the page; Figure 1.5 is not transcribed.
+huawei-ai-technology-ch01-2023,14,huawei-ai-technology-ch01-2023:p014,2457,True,1.2,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,15,huawei-ai-technology-ch01-2023:p015,2138,True,1.2,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,16,huawei-ai-technology-ch01-2023:p016,2812,True,1.2,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,17,huawei-ai-technology-ch01-2023:p017,2584,True,1.2,ok,line_end_hyphenation_preserved,,The three U+0081 glyphs are list bullets in the page render; normalize them to U+2022 using the source-specific replacement.
+huawei-ai-technology-ch01-2023,18,huawei-ai-technology-ch01-2023:p018,2102,True,1.2,ok,figure_or_table_information_may_be_missing,,Diagram Figure 1.6 is not transcribed; comparison paragraphs remain usable.
+huawei-ai-technology-ch01-2023,19,huawei-ai-technology-ch01-2023:p019,2402,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Table 1.1 may lose cell relationships in text extraction. Prefer the surrounding prose for benchmark evidence; check the PDF for any table-based question.
+huawei-ai-technology-ch01-2023,20,huawei-ai-technology-ch01-2023:p020,3296,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,21,huawei-ai-technology-ch01-2023:p021,2314,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Market forecast chart is not transcribed; body paragraphs are retained.
+huawei-ai-technology-ch01-2023,22,huawei-ai-technology-ch01-2023:p022,0,False,,ok,sparse_text_check_visual_review,Figure 1.8 occupies the page. The architecture diagram is an image and the extracted text is effectively its caption/header.,
+huawei-ai-technology-ch01-2023,23,huawei-ai-technology-ch01-2023:p023,2499,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,24,huawei-ai-technology-ch01-2023:p024,1632,True,1.2,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,"Figure 1.9 is not transcribed; historical body paragraphs are retained. The four U+0081 glyphs are visually verified list bullets, normalized to U+2022."
+huawei-ai-technology-ch01-2023,25,huawei-ai-technology-ch01-2023:p025,2565,True,1.2|1.3,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Begins with section 1.2 continuation and later starts 1.3. Split at the verified heading rather than label the whole page as 1.3.
+huawei-ai-technology-ch01-2023,26,huawei-ai-technology-ch01-2023:p026,65,False,1.3,ok,sparse_text_check_visual_review|figure_or_table_information_may_be_missing,Figures 1.10 and 1.11 with captions; no substantial extracted body paragraph.,
+huawei-ai-technology-ch01-2023,27,huawei-ai-technology-ch01-2023:p027,84,False,1.3,ok,sparse_text_check_visual_review|figure_or_table_information_may_be_missing,Figures 1.12 to 1.14 with captions; no substantial extracted body paragraph.,
+huawei-ai-technology-ch01-2023,28,huawei-ai-technology-ch01-2023:p028,920,True,1.3,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figures 1.15 and 1.16 are not transcribed; the NLP paragraph below is readable and retained.
+huawei-ai-technology-ch01-2023,29,huawei-ai-technology-ch01-2023:p029,282,False,1.3,ok,sparse_text_check_visual_review|figure_or_table_information_may_be_missing,"Mostly Figures 1.17 and 1.18, a short continuation sentence and the opening of section 1.3.2. Conservatively exclude from the text corpus.",
+huawei-ai-technology-ch01-2023,30,huawei-ai-technology-ch01-2023:p030,962,True,1.3,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figures 1.19 and 1.20 are not transcribed; the Smart City paragraph below is retained.
+huawei-ai-technology-ch01-2023,31,huawei-ai-technology-ch01-2023:p031,1895,True,1.3,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figure 1.21 is not transcribed; application paragraphs remain readable.
+huawei-ai-technology-ch01-2023,32,huawei-ai-technology-ch01-2023:p032,2511,True,1.3|1.4,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Contains both sections 1.3 and 1.4. Use section spans for filtering.
+huawei-ai-technology-ch01-2023,33,huawei-ai-technology-ch01-2023:p033,1398,True,1.4,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Figure 1.22 is not transcribed; body text is retained.
+huawei-ai-technology-ch01-2023,34,huawei-ai-technology-ch01-2023:p034,3006,True,1.4,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,35,huawei-ai-technology-ch01-2023:p035,2677,True,1.4,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,36,huawei-ai-technology-ch01-2023:p036,1823,True,1.4|1.5,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Contains sections 1.4 and 1.5. Figure 1.23 is not transcribed; retain body text with section spans.
+huawei-ai-technology-ch01-2023,37,huawei-ai-technology-ch01-2023:p037,2505,True,1.5,ok,line_end_hyphenation_preserved,,
+huawei-ai-technology-ch01-2023,38,huawei-ai-technology-ch01-2023:p038,2527,True,1.5|1.6,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,Contains sections 1.5 and 1.6; keep their boundary for metadata filtering.
+huawei-ai-technology-ch01-2023,39,huawei-ai-technology-ch01-2023:p039,1838,True,1.6,ok,figure_or_table_information_may_be_missing|line_end_hyphenation_preserved,,"Figure 1.24 is not transcribed. Predictions in the text are historical claims in this source, not verified current facts."
+huawei-ai-technology-ch01-2023,40,huawei-ai-technology-ch01-2023:p040,2296,False,1.6|1.7|1.8,ok,line_end_hyphenation_preserved,"Mixed continuation of section 1.6, chapter summary and exercises. Conservatively exclude the whole page; sufficient content remains elsewhere.",
+huawei-ai-technology-ch01-2023,41,huawei-ai-technology-ch01-2023:p041,1000,False,1.8,ok,line_end_hyphenation_preserved,"License notice only; retained as permission evidence, not knowledge content.",

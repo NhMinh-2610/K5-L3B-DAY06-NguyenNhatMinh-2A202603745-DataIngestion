@@ -1,0 +1,44 @@
+2026-11-14 04:01:41,760Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=1
+2026-11-14 04:01:41,872Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=2
+2026-11-14 04:01:41,885Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=3
+2026-11-14 04:01:41,897Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=4
+2026-11-14 04:01:41,910Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=5
+2026-11-14 04:01:41,927Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=6
+2026-11-14 04:01:41,937Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=7
+2026-11-14 04:01:41,959Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=8
+2026-11-14 04:01:41,979Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=9
+2026-11-14 04:01:42,002Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=10
+2026-11-14 04:01:42,022Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=11
+2026-11-14 04:01:42,041Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=12
+2026-11-14 04:01:42,063Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=13
+2026-11-14 04:01:42,074Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=14
+2026-11-14 04:01:42,089Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=15
+2026-11-14 04:01:42,103Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=16
+2026-11-14 04:01:42,120Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=17
+2026-11-14 04:01:42,137Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=18
+2026-11-14 04:01:42,151Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=19
+2026-11-14 04:01:42,166Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=20
+2026-11-14 04:01:42,188Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=21
+2026-11-14 04:01:42,204Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=22
+2026-11-14 04:01:42,205Z WARNING pypdf._text_extraction._layout_mode._fixed_width_page Rotated text discovered. Output will be incomplete.
+2026-11-14 04:01:42,206Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=23
+2026-11-14 04:01:42,222Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=24
+2026-11-14 04:01:42,237Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=25
+2026-11-14 04:01:42,253Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=26
+2026-11-14 04:01:42,255Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=27
+2026-11-14 04:01:42,257Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=28
+2026-11-14 04:01:42,263Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=29
+2026-11-14 04:01:42,266Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=30
+2026-11-14 04:01:42,274Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=31
+2026-11-14 04:01:42,288Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=32
+2026-11-14 04:01:42,305Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=33
+2026-11-14 04:01:42,314Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=34
+2026-11-14 04:01:42,332Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=35
+2026-11-14 04:01:42,351Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=36
+2026-11-14 04:01:42,363Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=37
+2026-11-14 04:01:42,379Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=38
+2026-11-14 04:01:42,395Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=39
+2026-11-14 04:01:42,407Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=40
+2026-11-14 04:01:42,421Z INFO src.ingestion Extracting document=huawei-ai-technology-ch01-2023 physical_page=41
+2026-11-14 04:01:42,457Z INFO root Inventoried huawei-ai-technology-ch01-2023: physical=41 included=35 excluded=6
+2026-11-14 04:01:42,517Z INFO root Completed: pages=41 content=35 units=40

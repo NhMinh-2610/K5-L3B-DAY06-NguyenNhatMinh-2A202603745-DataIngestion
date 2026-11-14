@@ -1,0 +1,140 @@
+{
+  "generated_at_utc": "2026-11-14T04:01:42.501966+00:00",
+  "document_count": 1,
+  "physical_pages": 41,
+  "included_content_pages": 35,
+  "excluded_pages": [
+    22,
+    26,
+    27,
+    29,
+    40,
+    41
+  ],
+  "meets_minimum_30_pages": true,
+  "section_units": 40,
+  "included_page_characters": 79973,
+  "min_included_page_characters": 920,
+  "max_included_page_characters": 3399,
+  "empty_pages_after_cleanup": [
+    22
+  ],
+  "extraction_error_pages": [],
+  "mixed_section_pages": [
+    1,
+    25,
+    32,
+    36,
+    38
+  ],
+  "ocr_applied": false,
+  "paid_api_calls": 0,
+  "paid_service_cost": 0,
+  "elapsed_seconds": 0.765,
+  "pdf_warning_count": 1,
+  "optional_fonttools_missing_warning_count": 0,
+  "other_pdf_warnings": [
+    "Rotated text discovered. Output will be incomplete."
+  ],
+  "unusual_control_character_pages": [],
+  "warning_log": "results/data_preparation.log",
+  "per_section": {
+    "1": {
+      "title": "A General Introduction to Artificial Intelligence",
+      "units": 1,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p001"
+      ],
+      "page_count": 1
+    },
+    "1.1": {
+      "title": "The Concept of Artificial Intelligence",
+      "units": 12,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p001",
+        "huawei-ai-technology-ch01-2023:p002",
+        "huawei-ai-technology-ch01-2023:p003",
+        "huawei-ai-technology-ch01-2023:p004",
+        "huawei-ai-technology-ch01-2023:p005",
+        "huawei-ai-technology-ch01-2023:p006",
+        "huawei-ai-technology-ch01-2023:p007",
+        "huawei-ai-technology-ch01-2023:p008",
+        "huawei-ai-technology-ch01-2023:p009",
+        "huawei-ai-technology-ch01-2023:p010",
+        "huawei-ai-technology-ch01-2023:p011",
+        "huawei-ai-technology-ch01-2023:p012"
+      ],
+      "page_count": 12
+    },
+    "1.2": {
+      "title": "AI-Related Technologies",
+      "units": 12,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p013",
+        "huawei-ai-technology-ch01-2023:p014",
+        "huawei-ai-technology-ch01-2023:p015",
+        "huawei-ai-technology-ch01-2023:p016",
+        "huawei-ai-technology-ch01-2023:p017",
+        "huawei-ai-technology-ch01-2023:p018",
+        "huawei-ai-technology-ch01-2023:p019",
+        "huawei-ai-technology-ch01-2023:p020",
+        "huawei-ai-technology-ch01-2023:p021",
+        "huawei-ai-technology-ch01-2023:p023",
+        "huawei-ai-technology-ch01-2023:p024",
+        "huawei-ai-technology-ch01-2023:p025"
+      ],
+      "page_count": 12
+    },
+    "1.3": {
+      "title": "The Technologies and Applications of AI",
+      "units": 5,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p025",
+        "huawei-ai-technology-ch01-2023:p028",
+        "huawei-ai-technology-ch01-2023:p030",
+        "huawei-ai-technology-ch01-2023:p031",
+        "huawei-ai-technology-ch01-2023:p032"
+      ],
+      "page_count": 5
+    },
+    "1.4": {
+      "title": "Huawei’s AI Development Strategy",
+      "units": 5,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p032",
+        "huawei-ai-technology-ch01-2023:p033",
+        "huawei-ai-technology-ch01-2023:p034",
+        "huawei-ai-technology-ch01-2023:p035",
+        "huawei-ai-technology-ch01-2023:p036"
+      ],
+      "page_count": 5
+    },
+    "1.5": {
+      "title": "The Controversy of AI",
+      "units": 3,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p036",
+        "huawei-ai-technology-ch01-2023:p037",
+        "huawei-ai-technology-ch01-2023:p038"
+      ],
+      "page_count": 3
+    },
+    "1.6": {
+      "title": "The Development Trends for AI",
+      "units": 2,
+      "pages": [
+        "huawei-ai-technology-ch01-2023:p038",
+        "huawei-ai-technology-ch01-2023:p039"
+      ],
+      "page_count": 2
+    }
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "pypdf": "6.21.4",
+    "extraction_mode": "layout",
+    "normalization": "nfkc-layout-whitespace-v1"
+  },
+  "review_status": "source_checked",
+  "student_confirmation": "pending"
+}

@@ -1,0 +1,4 @@
+﻿strategy,chunking,chunk_size,overlap,question_filter,chunk_count,min_chars,mean_chars,median_chars,p95_chars,max_chars,total_chars,content_pages,chunking_seconds,reuses,python
+A,fixed,500,50,False,190,62,460.3,500.0,500,500,87463,35,0.008916,,3.13.7
+B,paragraph,500,0,False,201,19,396.9,494,500,500,79767,35,0.00916,,3.13.7
+C,paragraph,500,0,True,201,19,396.9,494,500,500,79767,35,2e-06,B,3.13.7

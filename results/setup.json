@@ -1,0 +1,32 @@
+{
+  "python": "3.13.7",
+  "python_executable": "C:\\Users\\nnhat\\.venvs\\day06-dataingestion\\Scripts\\python.exe",
+  "environment": "C:\\Users\\nnhat\\.venvs\\day06-dataingestion",
+  "reuse_installed_packages": true,
+  "packages": {
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "psycopg-binary": "3.3.8",
+    "python-dotenv": "1.0.1"
+  },
+  "pdf_text_matches_existing_corpus": true,
+  "docker_engine_version": "29.5.3",
+  "compose_config": "valid",
+  "database_status": "ready",
+  "image": "pgvector/pgvector:0.8.7-pg16",
+  "database_endpoint": "127.0.0.1:15433",
+  "database_name": "day6_lab",
+  "postgresql_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector_version": "0.8.7",
+  "database_checks": {
+    "connection": "passed",
+    "cosine_operator": "passed",
+    "metadata_jsonb": "passed"
+  },
+  "previous_database_endpoint": "127.0.0.1:55433",
+  "port_change": {
+    "date": "2026-11-14",
+    "reason": "Windows reserves 55369-55468; port change approved by student.",
+    "integrity_check": "results/lab_check.json"
+  }
+}

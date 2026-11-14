@@ -8,3 +8,9 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Local text extracted from the licensed corpus; regenerate with the inventory script.
+data/processed/
+# Local visual checks of source PDFs.
+tmp/pdfs/
+tmp/setup/

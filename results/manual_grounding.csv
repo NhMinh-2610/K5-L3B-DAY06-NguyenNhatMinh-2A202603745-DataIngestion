@@ -1,0 +1,397 @@
+﻿sample_id,strategy,question_id,question,expected_answer,gold_pages,top3_text,auto_hit1,auto_hit3,verified_hit1,verified_hit3,score,reason,review_status
+A:q16,A,q16,Ba trường phái AI chính được nhắc đến trong tài liệu là gì?,"Chủ nghĩa ký hiệu, chủ nghĩa kết nối và chủ nghĩa hành vi; tương ứng symbolism, connectionism và behaviorism.",12,"Hạng 1, trang 7, mục 1.1:
+s were formed in the United States ever since, such as the
+Carnegie-RAND group formed by Allen Newell and Herbert Alexander Simon,
+the research group the Massachusetts Institute of Technology (MIT) by Marvin
+Lee Minsky and John McCarthy, and Arthur Samuel’s IBM engineering research
+group, etc.
+In the following two decades, AI was developing rapidly in a wide range of
+fields, and thanks to the great enthusiasm of researchers, the AI technologies and
+applications have kept expanding.
+(a) Machine L
+
+Hạng 2, trang 5, mục 1.1:
+ck to the Turing Test proposed
+by Alan M. Turing, known as “the Father of Artificial Intelligence”, in 1950.
+According to his assumption, if a computer can engage in dialogue with humans
+without being detected as a computer, then it is deemed as having intelligence. In the
+same year he proposed this assumption, Turing boldly predicted that creating the
+
+Hạng 3, trang 20, mục 1.2:
+Kasparov by 3.5:2.5. And the third wave of AI came in 2016
+when the Go AI AlphaGo developed by DeepMind, a subsidiary of Google, defeated
+the Go world champion and nine-dan player from the South Korean, Lee Sedol.
+In the future, AI will be embedded in every walk of life, from automobiles,
+finance, consumer goods to retail, healthcare, education, manufacturing, communi-
+cations, energy, tourism, culture and entertainment, transportation, logistics, real
+estate and environmental protection, etc.
+F",0,0,0,0,0,"Các trang 7, 5, 20 nói nhóm nghiên cứu/lịch sử, không liệt kê ba trường phái tại trang 12.",draft
+B:q16,B,q16,Ba trường phái AI chính được nhắc đến trong tài liệu là gì?,"Chủ nghĩa ký hiệu, chủ nghĩa kết nối và chủ nghĩa hành vi; tương ứng symbolism, connectionism và behaviorism.",12,"Hạng 1, trang 12, mục 1.1:
+1.1.5 The Three Main Schools of AI
+
+Hạng 2, trang 33, mục 1.4:
+Fig. 1.22 The three stages of artificial intelligence
+
+Hạng 3, trang 3, mục 1.1:
+Fig. 1.2 Fields covered by artificial intelligence",0,0,0,0,0,Hạng 1 trang 12 chỉ có tiêu đề; hai chú thích còn lại không có ba tên trường phái.,draft
+C:q16,C,q16,Ba trường phái AI chính được nhắc đến trong tài liệu là gì?,"Chủ nghĩa ký hiệu, chủ nghĩa kết nối và chủ nghĩa hành vi; tương ứng symbolism, connectionism và behaviorism.",12,"Hạng 1, trang 12, mục 1.1:
+1.1.5 The Three Main Schools of AI
+
+Hạng 2, trang 33, mục 1.4:
+Fig. 1.22 The three stages of artificial intelligence
+
+Hạng 3, trang 3, mục 1.1:
+Fig. 1.2 Fields covered by artificial intelligence",0,0,0,0,0,Cùng top-3 với B: tiêu đề trang 12 và chú thích trang 33/3 chưa chứa đáp án.,draft
+A:q17,A,q17,Tài liệu mô tả CPU được tối ưu cho kiểu xử lý nào?,Xử lý tuần tự.,18|19,"Hạng 1, trang 16, mục 1.2:
+y under the traditional architecture from making
+much progress.
+The status quo of the industry prompted researchers to keep on looking for
+CPU architectures and the relevant software frameworks that can better
+adapted to the post-Moore Era. As a result, the multi-core processor came
+into being, which allows higher CPU performance with more cores. Multi-
+core processors can better meet the demands of software on hardware. For
+example, Intel Core i7 processors adopt instruction-level parallel proc
+
+Hạng 2, trang 17, mục 1.2:
+instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as t
+
+Hạng 3, trang 18, mục 1.2:
+gned for simultaneous processing of
+multiple tasks). The CPU consists of several cores optimized for serial
+processing.
+(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,
+cache of the GPU serves for threads merely and plays the role of data
+forwarding. When multiple threads need to access the same data, the cache
+will coalesce these accesses, then access the DRAM, and forward the data to
+each thread after obtaining them, which will cause latency. However, as the
+large numb",0,1,0,1,2,Hạng 3 trang 18 nêu CPU có các lõi tối ưu cho serial processing; đủ trả lời xử lý tuần tự.,draft
+B:q17,B,q17,Tài liệu mô tả CPU được tối ưu cho kiểu xử lý nào?,Xử lý tuần tự.,18|19,"Hạng 1, trang 17, mục 1.2:
+instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as
+
+Hạng 2, trang 17, mục 1.2:
+matrix multi-
+plication and convolutional operations, so as to increase computing power
+and reduce energy consumption.
+(d) FPGA
+FPGA uses a programmable hardware description language (HDL), which
+is flexible, reconfigurable, and can be deeply customized. It can load DNN
+model on the chips to perform low-latency operation by incorporating mul-
+tiple FPGAs, contributing to a computing performance higher than GPU. But
+as it has to take account the constant erasing process, the performance of
+FPGA
+
+Hạng 3, trang 15, mục 1.2:
+of the technical architecture, AI processors can be roughly classified
+into four types.
+(a) CPU
+Central processing unit (CPU) is a large-scale integration circuit, which is
+the core of computing and control of a computer. The main function of CPU
+is to interpret program instructions and process data in software that it
+receives from the computer.
+(b) GPU
+Graphics processing unit (GPU), also known as display core (DC), visual
+processing unit (VPU) and display chip, is a specialized microprocessor",0,0,0,0,0,"Top-3 nói kiến trúc, GPU/FPGA và chức năng CPU; không nêu CPU tối ưu xử lý tuần tự ở trang 18/19.",draft
+C:q17,C,q17,Tài liệu mô tả CPU được tối ưu cho kiểu xử lý nào?,Xử lý tuần tự.,18|19,"Hạng 1, trang 17, mục 1.2:
+instruction set computer (CISC), architecture, adding the fused-multiply-add
+(FMA) instruction set to the arithmetic logic unit (ALU) module, and adding
+instruction set to the ARM reduced instruction set computer (RISC)
+architecture.
+The CPU performance can also be improved by increasing the frequency,
+but there is a limit, and the high frequency will cause excessive power
+consumption and high temperature.
+(b) GPU
+GPU is very competitive in matrix computing and parallel computing and
+serves as
+
+Hạng 2, trang 17, mục 1.2:
+matrix multi-
+plication and convolutional operations, so as to increase computing power
+and reduce energy consumption.
+(d) FPGA
+FPGA uses a programmable hardware description language (HDL), which
+is flexible, reconfigurable, and can be deeply customized. It can load DNN
+model on the chips to perform low-latency operation by incorporating mul-
+tiple FPGAs, contributing to a computing performance higher than GPU. But
+as it has to take account the constant erasing process, the performance of
+FPGA
+
+Hạng 3, trang 15, mục 1.2:
+of the technical architecture, AI processors can be roughly classified
+into four types.
+(a) CPU
+Central processing unit (CPU) is a large-scale integration circuit, which is
+the core of computing and control of a computer. The main function of CPU
+is to interpret program instructions and process data in software that it
+receives from the computer.
+(b) GPU
+Graphics processing unit (GPU), also known as display core (DC), visual
+processing unit (VPU) and display chip, is a specialized microprocessor",0,0,0,0,0,"Cùng top-3 với B, chưa có bằng chứng về xử lý tuần tự.",draft
+A:q18,A,q18,"Trong phần Chiến lược phát triển AI của Huawei, suy luận trực tuyến và suy luận theo lô của ModelArts khác nhau ở điểm nào?",Suy luận trực tuyến tạo dự đoán theo thời gian thực cho từng yêu cầu; suy luận theo lô tạo một loạt dự đoán trên một lô dữ liệu.,34,"Hạng 1, trang 33, mục 1.4:
+bedrock of Huawei’s full-stack all-scenario AI solution, the Atlas artificial
+intelligence computing solution, based on the Ascend AI processor, provides prod-
+ucts in different forms, including modules, circuit boards and servers to meet the
+all-scenario demands for computing power by customers.
+
+1.4.2 Directions of Huawei Full-Stack AI
+
+1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-s
+
+Hạng 2, trang 23, mục 1.2:
+. It searches
+solutions to the problems in the AI technologies and navigate the implemen-
+tation of AI.
+(b) Industrial data: It enables the companies to utilize their own data to create
+massive value through data processing and data mining.
+(c) Algorithms: It provides enterprises with extensive algorithm libraries and
+model libraries, and solutions to corporate problems through general AI
+services and one-stop development platform.
+(d) Computing power: Based on Huawei’s 30 years of experiences i
+
+Hạng 3, trang 34, mục 1.4:
+models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the enterpr",0,0,0,0,0,"Trang 33/23/34 giới thiệu nền tảng, industrial data và automatic learning; thiếu cả phân biệt online/batch inference.",draft
+B:q18,B,q18,"Trong phần Chiến lược phát triển AI của Huawei, suy luận trực tuyến và suy luận theo lô của ModelArts khác nhau ở điểm nào?",Suy luận trực tuyến tạo dự đoán theo thời gian thực cho từng yêu cầu; suy luận theo lô tạo một loạt dự đoán trên một lô dữ liệu.,34,"Hạng 1, trang 33, mục 1.4:
+1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-scale data preprocessing, semi-automatic labeling,
+distributed training, automated model building and on-demand model deploy-
+ment on end, edge and cloud, to help developers quickly build and deploy models
+and manage the full AI development lifecycle. ModelArts features characteristics
+as follows.
+(a) Automatic learning: With the automatic
+
+Hạng 2, trang 34, mục 1.4:
+consumption designed by Huawei.
+(f) High efficiency of data preparation: ModelArts has a built-in AI data frame-
+work, which can enhance the efficiency of data preparation through the
+convergence of automatic pre-labeling and hard example dataset labeling.
+(g) Reduced training time: ModelArts is installed with Huawei’s self-developed
+high-performance distributed framework MoXing, using core technologies
+including cascaded hybrid parallelism, gradient compression, and convolu-
+tion acceleration
+
+Hạng 3, trang 34, mục 1.4:
+models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the",0,0,0,0,0,Các đoạn ModelArts ở trang 33/34 không chứa tính thời gian thực theo yêu cầu và dự đoán theo lô.,draft
+C:q18,C,q18,"Trong phần Chiến lược phát triển AI của Huawei, suy luận trực tuyến và suy luận theo lô của ModelArts khác nhau ở điểm nào?",Suy luận trực tuyến tạo dự đoán theo thời gian thực cho từng yêu cầu; suy luận theo lô tạo một loạt dự đoán trên một lô dữ liệu.,34,"Hạng 1, trang 33, mục 1.4:
+1. Huawei’s one-stop AI development platform—ModelArts
+ModelArts is a one-stop development platform that Huawei designed for AI
+developers. It supports large-scale data preprocessing, semi-automatic labeling,
+distributed training, automated model building and on-demand model deploy-
+ment on end, edge and cloud, to help developers quickly build and deploy models
+and manage the full AI development lifecycle. ModelArts features characteristics
+as follows.
+(a) Automatic learning: With the automatic
+
+Hạng 2, trang 34, mục 1.4:
+consumption designed by Huawei.
+(f) High efficiency of data preparation: ModelArts has a built-in AI data frame-
+work, which can enhance the efficiency of data preparation through the
+convergence of automatic pre-labeling and hard example dataset labeling.
+(g) Reduced training time: ModelArts is installed with Huawei’s self-developed
+high-performance distributed framework MoXing, using core technologies
+including cascaded hybrid parallelism, gradient compression, and convolu-
+tion acceleration
+
+Hạng 3, trang 34, mục 1.4:
+models based on the labeled data, thus the developers do not need to have
+experience in coding or model development.
+The automatic learning of Model Arts is mainly realized through
+ModelArts Pro, a professional development kit designed for enterprise-
+grade AI. Based on the advanced algorithms and rapid training capability of
+HUAWEI CLOUD, ModelArts Pro provides the pre-installed workflows and
+models to improve the efficiency and reduce the difficulty of AI application
+development by the",0,0,0,0,0,Đúng mục 1.4 nhưng các đoạn trang 33/34 thiếu phần online/batch inference; lọc đúng chưa đủ bằng chứng.,draft
+A:q19,A,q19,"Theo tài liệu, hai nhóm mạng nơron trong GAN tương tác với nhau như thế nào?",Hai nhóm mạng nơron cạnh tranh hoặc đối kháng với nhau.,37,"Hạng 1, trang 37, mục 1.5:
+s, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mo
+
+Hạng 2, trang 18, mục 1.2:
+gned for simultaneous processing of
+multiple tasks). The CPU consists of several cores optimized for serial
+processing.
+(a) The GPU works with many ALUs and little cache memory. Unlike the CPU,
+cache of the GPU serves for threads merely and plays the role of data
+forwarding. When multiple threads need to access the same data, the cache
+will coalesce these accesses, then access the DRAM, and forward the data to
+each thread after obtaining them, which will cause latency. However, as the
+large numb
+
+Hạng 3, trang 19, mục 1.2:
+e of neural network tasks
+processing is much higher than that of CPU and GPU.
+The NPU mimics human neurons and synapses on the circuitry, and directly
+processes large scale neurons and synapses through deep learning processor
+instruction set. In NPUs, the processing of a group of neurons will take only
+one instruction. Currently, the typical examples of NPU include Huawei Ascend
+AI processor, the Cambrian chip and IBM’s TrueNorth chip.
+There are two kinds of Huawei Ascend AI processor: Ascend 31",0,0,1,1,2,Hạng 1 trang 37 đã nêu hai nhóm mạng contest with each other. Ví dụ minh họa bị cắt nhưng ý đối kháng đủ trả lời; đề xuất bằng chứng tương đương.,draft
+B:q19,B,q19,"Theo tài liệu, hai nhóm mạng nơron trong GAN tương tác với nhau như thế nào?",Hai nhóm mạng nơron cạnh tranh hoặc đối kháng với nhau.,37,"Hạng 1, trang 37, mục 1.5:
+Along with the development of computer vision, it is more and more difficult to
+judge the credibility of images. People can produce fake or manipulated images
+through image processors (e.g., Photoshop, PS), generative adversarial networks
+(GAN) and other techniques, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is
+
+Hạng 2, trang 37, mục 1.5:
+quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mouse game, or like cashiers fighting banknote counterfeiters:
+the counterfeiter tries to deceive the cashier to believe that he is holding the real
+money, and the cashier tries to identify the authenticity.
+
+Hạng 3, trang 28, mục 1.3:
+Fig. 1.15 Intelligent Q&A
+
+Fig. 1.16 Intelligent navigation",0,1,0,1,2,Hạng 2 trang 37 nêu hai nhóm mạng cạnh tranh và ví dụ người làm tiền giả/người kiểm tra; hạng 1 chưa nêu tương tác.,draft
+C:q19,C,q19,"Theo tài liệu, hai nhóm mạng nơron trong GAN tương tác với nhau như thế nào?",Hai nhóm mạng nơron cạnh tranh hoặc đối kháng với nhau.,37,"Hạng 1, trang 37, mục 1.5:
+Along with the development of computer vision, it is more and more difficult to
+judge the credibility of images. People can produce fake or manipulated images
+through image processors (e.g., Photoshop, PS), generative adversarial networks
+(GAN) and other techniques, making it really difficult to tell whether they are fake
+or real.
+Let’s take GAN as an example. This concept was introduced by the machine
+learning researcher Ian Goodfellow in 2014. In its name, “G” is for “generative”,
+which is
+
+Hạng 2, trang 37, mục 1.5:
+quoted here to indicate that the model generates image-like information,
+rather than the predicted values related to the input data. And “AN” is for “adver-
+sarial network”, as model uses two groups of neural networks that contest with each
+other like in a cat-and-mouse game, or like cashiers fighting banknote counterfeiters:
+the counterfeiter tries to deceive the cashier to believe that he is holding the real
+money, and the cashier tries to identify the authenticity.
+
+Hạng 3, trang 28, mục 1.3:
+Fig. 1.15 Intelligent Q&A
+
+Fig. 1.16 Intelligent navigation",0,1,0,1,2,Cùng kết quả q19 của B: hạng 2 trang 37 đủ bằng chứng về cạnh tranh giữa hai nhóm mạng.,draft
+A:q20,A,q20,"Trong phần Xu hướng phát triển AI, việc dùng nhiều nguồn dữ liệu để huấn luyện bằng học liên kết phải bảo đảm điều kiện gì?",Phải bảo đảm quyền riêng tư và an toàn dữ liệu.,38,"Hạng 1, trang 21, mục 1.2:
+el will take a long working cycle, which consists
+of data collection, data cleaning, model training and tuning, and optimization of
+visualization experience.
+3. Fragmented capabilities and experiences: to apply a same AI model in other
+scenarios requires will need to repeat data collection, data cleaning, model
+training and tuning, and experience optimization, and the capabilities of the AI
+model cannot be directly passed to the next scenario.
+4. Difficult capacity upgrading and improvement: the
+
+Hạng 2, trang 21, mục 1.2:
+tion are facing challenges as well: the unbalance between the
+limited AI development and the huge market demands. Currently, the development
+and application of AI needs to deal with the following three problems.
+1. High occupational standards: To get engaged in AI industry, it is a prerequisite
+for a person to have considerable knowledge in machine learning, deep learning,
+statistics, linear algebra and calculus.
+2. Low efficiency. Training a model will take a long working cycle, which consists
+
+
+Hạng 3, trang 38, mục 1.6:
+uring the performance.
+4. All-round development of the computing power at device, edge and cloud
+The application of artificial intelligence chips to the cloud, edge devices and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise o",0,0,0,0,0,Hạng 3 trang 38 mới đến tiêu đề Safer Data Sharing và đầu câu On the premise; chưa nêu privacy/security.,draft
+B:q20,B,q20,"Trong phần Xu hướng phát triển AI, việc dùng nhiều nguồn dữ liệu để huấn luyện bằng học liên kết phải bảo đảm điều kiện gì?",Phải bảo đảm quyền riêng tư và an toàn dữ liệu.,38,"Hạng 1, trang 21, mục 1.2:
+development
+and application of AI needs to deal with the following three problems.
+1. High occupational standards: To get engaged in AI industry, it is a prerequisite
+for a person to have considerable knowledge in machine learning, deep learning,
+statistics, linear algebra and calculus.
+2. Low efficiency. Training a model will take a long working cycle, which consists
+of data collection, data cleaning, model training and tuning, and optimization of
+visualization experience.
+3. Fragmented
+
+Hạng 2, trang 23, mục 1.2:
+the problems in the AI technologies and navigate the implemen-
+tation of AI.
+(b) Industrial data: It enables the companies to utilize their own data to create
+massive value through data processing and data mining.
+(c) Algorithms: It provides enterprises with extensive algorithm libraries and
+model libraries, and solutions to corporate problems through general AI
+services and one-stop development platform.
+(d) Computing power: Based on Huawei’s 30 years of experiences in ICT, the
+full-stack AI
+
+Hạng 3, trang 38, mục 1.6:
+and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise of ensuring data privacy and security, federated learning
+makes use of different data sources to collaboratively train the models, so as to
+overcome the bottleneck of data as",0,0,0,1,2,Hạng 3 trang 38 nêu điều kiện data privacy and security cùng ngữ cảnh federated learning; phần tham chiếu hình bị cắt không làm thiếu điều kiện trả lời.,draft
+C:q20,C,q20,"Trong phần Xu hướng phát triển AI, việc dùng nhiều nguồn dữ liệu để huấn luyện bằng học liên kết phải bảo đảm điều kiện gì?",Phải bảo đảm quyền riêng tư và an toàn dữ liệu.,38,"Hạng 1, trang 38, mục 1.6:
+and
+mobile terminals is expanding, further solving the problem of computing power
+for AI.
+5. More Sophisticated AI Basic Data Services
+As the AI basic data service is becoming more mature, we will see more and
+more related data labeling platforms and tools being introduced to the market.
+6. Safer Data Sharing
+On the premise of ensuring data privacy and security, federated learning
+makes use of different data sources to collaboratively train the models, so as to
+overcome the bottleneck of data as
+
+Hạng 2, trang 38, mục 1.6:
+1.6 The Development Trends for AI
+
+Hạng 3, trang 38, mục 1.6:
+will have to face the problem of operational efficiency during
+industrial implementation. Therefore, an increasing number of model compres-
+sion techniques have been proposed to further reduce the size and parameters of
+the models, accelerate the inference speed, and meet the requirements of indus-
+trial applications while ensuring the performance.
+4. All-round development of the computing power at device, edge and cloud
+The application of artificial intelligence chips to the cloud, edge devices",0,0,1,1,2,Hạng 1 trang 38 nêu đủ điều kiện riêng tư và an toàn dữ liệu cho federated learning; đề xuất bằng chứng tương đương dù thiếu cuối quote.,draft

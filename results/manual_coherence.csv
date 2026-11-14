@@ -1,0 +1,233 @@
+﻿sample_id,strategy,page,anchor_char,chunk_id,section,chunk_text,score,reason,review_status
+huawei-ai-technology-ch01-2023:p001:A,A,1,875,975c9e6332a625cf5b027b3f004ab45d71238fff9e062da4583ac31f043683f9,1.1,"1.1 The Concept of Artificial Intelligence
+
+1.1.1 What Is Artificial Intelligence?
+
+Currently, people mainly learn about artificial intelligence (AI) through news,
+movies, and the applications in daily life, as shown by Fig. 1.1.
+A rather widely accepted definition of AI, also a relatively early one, was
+proposed by John McCarthy at the 1956 Dartmouth Conference, which outlined
+that artificial intelligence is about letting a machine simulate the intelligent behavior
+of humans as precisely as it ",1,Có nội dung định nghĩa nhưng câu kết bị cắt ở as precisely as it; chưa trọn ý.,draft
+huawei-ai-technology-ch01-2023:p001:B,B,1,875,6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af,1.1,"Currently, people mainly learn about artificial intelligence (AI) through news,
+movies, and the applications in daily life, as shown by Fig. 1.1.
+A rather widely accepted definition of AI, also a relatively early one, was
+proposed by John McCarthy at the 1956 Dartmouth Conference, which outlined
+that artificial intelligence is about letting a machine simulate the intelligent behavior
+of humans as precisely as it can be. However, this definition seemingly ignores the
+possibility of strong",1,Giữ phần định nghĩa McCarthy nhưng câu về strong AI bị dừng giữa ý.,draft
+huawei-ai-technology-ch01-2023:p001:C,C,1,875,6e104c1fc00c0e8bfaa910195ce0a4a6b63f1ef3909b152cb5a71196a563e7af,1.1,"Currently, people mainly learn about artificial intelligence (AI) through news,
+movies, and the applications in daily life, as shown by Fig. 1.1.
+A rather widely accepted definition of AI, also a relatively early one, was
+proposed by John McCarthy at the 1956 Dartmouth Conference, which outlined
+that artificial intelligence is about letting a machine simulate the intelligent behavior
+of humans as precisely as it can be. However, this definition seemingly ignores the
+possibility of strong",1,Giữ phần định nghĩa McCarthy nhưng câu về strong AI bị dừng giữa ý.,draft
+huawei-ai-technology-ch01-2023:p002:A,A,2,1046,e022a2e075f33d02740c2cfd4938080690809dfb1175fc29448fabeb408557cd,1.1,"ial intelligence features the potential to accurately recognize the visual
+space and things around it, and to represent what they perceived visually in
+paintings and graphs. People with strong spatial intelligence are very sensitive
+to spatial relationships such as color, line, shape, and form. The jobs suitable for
+them are interior designer, architect, photographer, painter, pilot and so on.
+4. Bodily-Kinesthetic Intelligence
+Bodily-kinesthetic intelligence indicates the capacity to use one’s ",1,"Mở đầu bị cắt từ, phần bodily-kinesthetic mới bắt đầu đã bị ngắt.",draft
+huawei-ai-technology-ch01-2023:p002:B,B,2,1046,8b0201c6fb2527215d1e42e10da33cfca8a2ffb150e8cb37b41ad1263825b7e0,1.1,"perceived visually in
+paintings and graphs. People with strong spatial intelligence are very sensitive
+to spatial relationships such as color, line, shape, and form. The jobs suitable for
+them are interior designer, architect, photographer, painter, pilot and so on.
+4. Bodily-Kinesthetic Intelligence
+Bodily-kinesthetic intelligence indicates the capacity to use one’s whole body
+to express thoughts and emotions, and to use hands and other tools to fashion
+products or manipulate objects. This",1,Đầu đoạn thiếu chủ thể; cuối đoạn có This chưa có phần giải thích.,draft
+huawei-ai-technology-ch01-2023:p002:C,C,2,1046,8b0201c6fb2527215d1e42e10da33cfca8a2ffb150e8cb37b41ad1263825b7e0,1.1,"perceived visually in
+paintings and graphs. People with strong spatial intelligence are very sensitive
+to spatial relationships such as color, line, shape, and form. The jobs suitable for
+them are interior designer, architect, photographer, painter, pilot and so on.
+4. Bodily-Kinesthetic Intelligence
+Bodily-kinesthetic intelligence indicates the capacity to use one’s whole body
+to express thoughts and emotions, and to use hands and other tools to fashion
+products or manipulate objects. This",1,Đầu đoạn thiếu chủ thể; cuối đoạn có This chưa có phần giải thích.,draft
+huawei-ai-technology-ch01-2023:p003:A,A,3,908,768e6673b229fadeb6719ec05ac94480f8d522ecc547a2a2e9f6a62825805757,1.1,"e with their feelings and
+emotions, notice the hidden information of different interpersonal relationships,
+and respond appropriately. The professions suitable for them include politician,
+diplomat, leader, psychologist, PR officer, salesmen, and so on.
+7. Intrapersonal Intelligence
+Intrapersonal intelligence is about self-recognition, which means the capabil-
+ity to understand oneself and then act accordingly based on such knowledge.
+People with strong intrapersonal intelligence are able to dis",1,Đầu đoạn là phần tiếp nối; câu cuối cắt giữa từ discern.,draft
+huawei-ai-technology-ch01-2023:p003:B,B,3,908,819bd9c3b9d4d4c970c49244de4f0837ffcd0c09caeef0ba5e3a86315380ce79,1.1,"relationships,
+and respond appropriately. The professions suitable for them include politician,
+diplomat, leader, psychologist, PR officer, salesmen, and so on.
+7. Intrapersonal Intelligence
+Intrapersonal intelligence is about self-recognition, which means the capabil-
+ity to understand oneself and then act accordingly based on such knowledge.
+People with strong intrapersonal intelligence are able to discern their strengths
+and weaknesses, recognize their inner hobbies, moods, intentions,",1,Có định nghĩa intrapersonal nhưng danh sách thuộc tính dừng giữa chừng.,draft
+huawei-ai-technology-ch01-2023:p003:C,C,3,908,819bd9c3b9d4d4c970c49244de4f0837ffcd0c09caeef0ba5e3a86315380ce79,1.1,"relationships,
+and respond appropriately. The professions suitable for them include politician,
+diplomat, leader, psychologist, PR officer, salesmen, and so on.
+7. Intrapersonal Intelligence
+Intrapersonal intelligence is about self-recognition, which means the capabil-
+ity to understand oneself and then act accordingly based on such knowledge.
+People with strong intrapersonal intelligence are able to discern their strengths
+and weaknesses, recognize their inner hobbies, moods, intentions,",1,Có định nghĩa intrapersonal nhưng danh sách thuộc tính dừng giữa chừng.,draft
+huawei-ai-technology-ch01-2023:p004:A,A,4,896,16de417e23b2b4912dd903f1056aa82d3c724ed6457c1b2a3ac655b6b0ad0137,1.1,"a relatively simple and abstract definition.
+However, as our perception on the concept deepened, we may find that the conno-
+tation and denotation of machine learning will also change accordingly. It is not easy
+to define machine learning that precisely in only one or two sentences, not only
+because that it covers a wide span of fields in terms of theory and application, but
+also it is developing and transforming quite rapidly.
+Generally speaking, the processing system and algorithms of machine ",1,Hiểu phần khó định nghĩa machine learning nhưng câu tiếp theo bị cắt.,draft
+huawei-ai-technology-ch01-2023:p004:B,B,4,896,c2846b6dff84b2b11f5e6b5d29f761096500c04c4112aa26bb65b2d24f8422bf,1.1,"However, as our perception on the concept deepened, we may find that the conno-
+tation and denotation of machine learning will also change accordingly. It is not easy
+to define machine learning that precisely in only one or two sentences, not only
+because that it covers a wide span of fields in terms of theory and application, but
+also it is developing and transforming quite rapidly.
+Generally speaking, the processing system and algorithms of machine learning
+make predictions mainly by",1,"Giải thích được khó khăn định nghĩa, nhưng câu về cách dự đoán dừng ở by.",draft
+huawei-ai-technology-ch01-2023:p004:C,C,4,896,c2846b6dff84b2b11f5e6b5d29f761096500c04c4112aa26bb65b2d24f8422bf,1.1,"However, as our perception on the concept deepened, we may find that the conno-
+tation and denotation of machine learning will also change accordingly. It is not easy
+to define machine learning that precisely in only one or two sentences, not only
+because that it covers a wide span of fields in terms of theory and application, but
+also it is developing and transforming quite rapidly.
+Generally speaking, the processing system and algorithms of machine learning
+make predictions mainly by",1,"Giải thích được khó khăn định nghĩa, nhưng câu về cách dự đoán dừng ở by.",draft
+huawei-ai-technology-ch01-2023:p005:A,A,5,1302,b52af52e6382e27e0919c3c03adef6c92a2089fe9b13e64dfc381c52663642d6,1.1,"ive values and worldview, and is endowed with instincts, such as the
+needs of survival and safety, just like all the living beings. In a certain sense, strong
+AI is a new civilization.
+Weak artificial intelligence depicts the circumstance when it is not able to make
+machines that can truly accomplish reasoning and problem-solving. These machines
+may look smart, but they do not really have intelligence or self-awareness.
+We are currently in the era of weak artificial intelligence. The introductio",1,Thiếu đầu từ/câu và kết thúc giữa từ; phần weak AI vẫn đọc hiểu một phần.,draft
+huawei-ai-technology-ch01-2023:p005:B,B,5,1302,6a2b0db885209e34c70735eb0d3a705638344dffffa1ee64413186513ec4db7c,1.1,"such as the
+needs of survival and safety, just like all the living beings. In a certain sense, strong
+AI is a new civilization.
+Weak artificial intelligence depicts the circumstance when it is not able to make
+machines that can truly accomplish reasoning and problem-solving. These machines
+may look smart, but they do not really have intelligence or self-awareness.
+We are currently in the era of weak artificial intelligence. The introduction of
+weak artificial intelligence reduces the burden of",1,"Giữ định nghĩa weak AI nhưng mở đầu thiếu ngữ cảnh, kết thúc thiếu bổ ngữ.",draft
+huawei-ai-technology-ch01-2023:p005:C,C,5,1302,6a2b0db885209e34c70735eb0d3a705638344dffffa1ee64413186513ec4db7c,1.1,"such as the
+needs of survival and safety, just like all the living beings. In a certain sense, strong
+AI is a new civilization.
+Weak artificial intelligence depicts the circumstance when it is not able to make
+machines that can truly accomplish reasoning and problem-solving. These machines
+may look smart, but they do not really have intelligence or self-awareness.
+We are currently in the era of weak artificial intelligence. The introduction of
+weak artificial intelligence reduces the burden of",1,"Giữ định nghĩa weak AI nhưng mở đầu thiếu ngữ cảnh, kết thúc thiếu bổ ngữ.",draft
+huawei-ai-technology-ch01-2023:p006:A,A,6,661,ee7a523bf38f2c6bfd7fcf1e4094a7cb6b52ba235c63e747cfb7483f2ff6b3d4,1.1,"of the scientists of all generations.
+1. Precursors and Initiation Period (before 1956)
+The theoretical foundation for the birth of AI can date back to as early as the
+fourth century BC, when the famous ancient Greek philosopher and scientist
+Aristotle invented the concept of formal logic. In fact, his theory of syllogism is
+still working as an indispensable and decisive cornerstone for the deductive
+reasoning today. In the seventeenth century, the German mathematician Gottfried
+Leibniz advanced",1,Có đoạn Aristotle/formal logic nhưng câu Leibniz chưa hoàn chỉnh.,draft
+huawei-ai-technology-ch01-2023:p006:B,B,6,661,15d8e37daa21cdbb2f6547481aa86d4fde2e1f97c08aedb5e1a7cb99a38bdb43,1.1,"1956)
+The theoretical foundation for the birth of AI can date back to as early as the
+fourth century BC, when the famous ancient Greek philosopher and scientist
+Aristotle invented the concept of formal logic. In fact, his theory of syllogism is
+still working as an indispensable and decisive cornerstone for the deductive
+reasoning today. In the seventeenth century, the German mathematician Gottfried
+Leibniz advanced universal notation and some revolutionary ideas on reasoning
+and calculation,",1,Đầu chỉ còn đuôi tiêu đề; ví dụ Leibniz kết thúc bằng dấu phẩy.,draft
+huawei-ai-technology-ch01-2023:p006:C,C,6,661,15d8e37daa21cdbb2f6547481aa86d4fde2e1f97c08aedb5e1a7cb99a38bdb43,1.1,"1956)
+The theoretical foundation for the birth of AI can date back to as early as the
+fourth century BC, when the famous ancient Greek philosopher and scientist
+Aristotle invented the concept of formal logic. In fact, his theory of syllogism is
+still working as an indispensable and decisive cornerstone for the deductive
+reasoning today. In the seventeenth century, the German mathematician Gottfried
+Leibniz advanced universal notation and some revolutionary ideas on reasoning
+and calculation,",1,Đầu chỉ còn đuôi tiêu đề; ví dụ Leibniz kết thúc bằng dấu phẩy.,draft
+huawei-ai-technology-ch01-2023:p007:A,A,7,1558,9f3ab53bc9ae922352312ed93db9563d0ff1d95e09f5343771e310326941b989,1.1,"s the basic principles of synaptic plasticity, namely, the
+efficacy of synaptic transmission will arise greatly with the repeated and persis-
+tent stimulation from a presynaptic neuron to a postsynaptic neuron. This theory
+is fundamental to the modelling of neural networks. In 1948, Claude E. Shannon,
+the founder of information theory, introduced the concept of information entropy
+by borrowing the term from thermodynamics, and defined information entropy as
+the average amount of information afte",1,"Đầu thiếu tên/chủ thể lý thuyết, cuối cắt giữa từ after.",draft
+huawei-ai-technology-ch01-2023:p007:B,B,7,1558,6314981658a4329ee9b8ac98ddeeb3ecd014ea3a3939f745f964432df4f16678,1.1,"tent stimulation from a presynaptic neuron to a postsynaptic neuron. This theory
+is fundamental to the modelling of neural networks. In 1948, Claude E. Shannon,
+the founder of information theory, introduced the concept of information entropy
+by borrowing the term from thermodynamics, and defined information entropy as
+the average amount of information after the redundancy has being removed. The
+impact of this theory is quite far-reaching as it played an important role in fields
+such as",1,Định nghĩa entropy đủ đọc hiểu nhưng mở đầu và cuối đoạn đều thiếu ngữ cảnh.,draft
+huawei-ai-technology-ch01-2023:p007:C,C,7,1558,6314981658a4329ee9b8ac98ddeeb3ecd014ea3a3939f745f964432df4f16678,1.1,"tent stimulation from a presynaptic neuron to a postsynaptic neuron. This theory
+is fundamental to the modelling of neural networks. In 1948, Claude E. Shannon,
+the founder of information theory, introduced the concept of information entropy
+by borrowing the term from thermodynamics, and defined information entropy as
+the average amount of information after the redundancy has being removed. The
+impact of this theory is quite far-reaching as it played an important role in fields
+such as",1,Định nghĩa entropy đủ đọc hiểu nhưng mở đầu và cuối đoạn đều thiếu ngữ cảnh.,draft
+huawei-ai-technology-ch01-2023:p008:A,A,8,1461,ea3e69d4586d05ec2ca5d855837a8fc35b5dd085ca0409141ca22bd3ed92a2fe,1.1," pattern matching”, thus this unveiled the computer
+natural language conversation technology.
+In addition, during the first development period of AI, John McCarthy
+developed the LISP, which became the dominant programming language for
+AI IN the following decades. Marvin Minsky launched a more in-depth study
+of neural networks and discovered the disadvantages of simple neural net-
+works. In order to overcome these limitations, the scientists started to intro-
+duce multilayer neural networks and B",1,"Mở đầu từ giữa câu, cuối cắt phần tên phương pháp mạng nơron.",draft
+huawei-ai-technology-ch01-2023:p008:B,B,8,1461,d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21,1.1,"of the set rules and
+user’s questions, so as to give appropriate replies by choosing from the
+pre-written answer archives. This is also the first program try to have passed
+the Turing Test. ELIZA once masqueraded as a psychotherapist to talk to
+patients, and many of them failed to recognize it as a robot when it was firstly
+applied. “Conversation is pattern matching”, thus this unveiled the computer
+natural language conversation technology.
+In addition, during the first development period of AI,",1,"Đọc được ví dụ ELIZA nhưng đầu thiếu điều kiện, câu tiếp theo bị ngắt.",draft
+huawei-ai-technology-ch01-2023:p008:C,C,8,1461,d3b27899c7c930d438462619f45f69515bc26b5e4cc3a2e2acf24d7627607f21,1.1,"of the set rules and
+user’s questions, so as to give appropriate replies by choosing from the
+pre-written answer archives. This is also the first program try to have passed
+the Turing Test. ELIZA once masqueraded as a psychotherapist to talk to
+patients, and many of them failed to recognize it as a robot when it was firstly
+applied. “Conversation is pattern matching”, thus this unveiled the computer
+natural language conversation technology.
+In addition, during the first development period of AI,",1,"Đọc được ví dụ ELIZA nhưng đầu thiếu điều kiện, câu tiếp theo bị ngắt.",draft
+huawei-ai-technology-ch01-2023:p009:A,A,9,1700,4cff0d29f8d1a7c2d4fbab443b612deb8fb96081fc3557753e5ea704530eb120,1.1,"a theoretical basis does not mean actual yield. In the last 1970s,
+there were scientists concluded that to let a computer to imitate human retinal
+vision, it would need to execute at least one billion instructions. However, the
+calculation speed of the world’s fastest supercomputer Cray-1 in 1976 (which
+costed millions of US dollars to make) could only register no more than 100 mil-
+lion times per second, and the speed of an ordinary computer could meet even no
+more than one million times per se",1,"Có ví dụ giới hạn tính toán nhưng đầu là câu tiếp nối, cuối cắt từ second.",draft
+huawei-ai-technology-ch01-2023:p009:B,B,9,1700,30395295e3f921c3b82a026e706729f845ed53b9372e464393a0b731109fdb9d,1.1,"vision, it would need to execute at least one billion instructions. However, the
+calculation speed of the world’s fastest supercomputer Cray-1 in 1976 (which
+costed millions of US dollars to make) could only register no more than 100 mil-
+lion times per second, and the speed of an ordinary computer could meet even no
+more than one million times per second. The hardware limited the development of
+AI. In addition, another major basis for the progress of AI is the data base. At that
+time, computers",1,"Giữ nhận xét phần cứng hạn chế AI, nhưng đầu và câu về dữ liệu còn thiếu.",draft
+huawei-ai-technology-ch01-2023:p009:C,C,9,1700,30395295e3f921c3b82a026e706729f845ed53b9372e464393a0b731109fdb9d,1.1,"vision, it would need to execute at least one billion instructions. However, the
+calculation speed of the world’s fastest supercomputer Cray-1 in 1976 (which
+costed millions of US dollars to make) could only register no more than 100 mil-
+lion times per second, and the speed of an ordinary computer could meet even no
+more than one million times per second. The hardware limited the development of
+AI. In addition, another major basis for the progress of AI is the data base. At that
+time, computers",1,"Giữ nhận xét phần cứng hạn chế AI, nhưng đầu và câu về dữ liệu còn thiếu.",draft
+huawei-ai-technology-ch01-2023:p010:A,A,10,1595,b49b47961830f8ec3f902e3b845953b5eb9839c84bdfeac11df9f6427f37c8d2,1.1,"
+expanded the market presence in the entire computer marketplace. With a steady
+increase of CPU frequency and speed, the PCs were becoming even more
+powerful than the costly LISP machines.
+5. The Second AI Winter (1987–1997)
+In 1987, along with the crash of sales market of LISP machine hardware, the
+AI industry once again fell into another winter. The second AI trough period
+lasted for years as the hardware market collapsed and governments and institu-
+tions all over the world stopped investing ",1,Hiểu lịch sử AI winter nhưng đầu thiếu chủ thể và cuối thiếu phần đầu tư vào đâu.,draft
+huawei-ai-technology-ch01-2023:p010:B,B,10,1595,1afb48d43fa4be04db67a825c5c12028c21e04a18328f9fc3bfff232491a7346,1.1,"more
+powerful than the costly LISP machines.
+5. The Second AI Winter (1987–1997)
+In 1987, along with the crash of sales market of LISP machine hardware, the
+AI industry once again fell into another winter. The second AI trough period
+lasted for years as the hardware market collapsed and governments and institu-
+tions all over the world stopped investing in AI research. But during this period,
+the researchers still made some important achievements. In 1988, the American
+scientist Judea Pearl",1,"Nêu AI winter tương đối rõ nhưng đầu tiếp nối, cuối dừng ở tên Judea Pearl.",draft
+huawei-ai-technology-ch01-2023:p010:C,C,10,1595,1afb48d43fa4be04db67a825c5c12028c21e04a18328f9fc3bfff232491a7346,1.1,"more
+powerful than the costly LISP machines.
+5. The Second AI Winter (1987–1997)
+In 1987, along with the crash of sales market of LISP machine hardware, the
+AI industry once again fell into another winter. The second AI trough period
+lasted for years as the hardware market collapsed and governments and institu-
+tions all over the world stopped investing in AI research. But during this period,
+the researchers still made some important achievements. In 1988, the American
+scientist Judea Pearl",1,"Nêu AI winter tương đối rõ nhưng đầu tiếp nối, cuối dừng ở tên Judea Pearl.",draft
